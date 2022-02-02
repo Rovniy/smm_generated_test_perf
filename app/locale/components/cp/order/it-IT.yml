@@ -1,0 +1,30 @@
+label_1: Categoria di promozione
+label_2: Tipo di promozione
+label_2_price: Prezzo
+label_2_count: per 100
+label_2_count_more: per 1000
+url_required: Riempi il modulo
+url_igtv: Ling sul IGTV
+url_video: Link sul video
+numerosity_single: Su un post
+numerosity_multiple: Su tutti i post
+numerosity_label_like: Tipo di likes
+numerosity_label_comment: Tipo di commenti
+numerosity_label_default: Tipo
+quantity_label_views: Quantità di visualizzazioni
+quantity_label_default: Quantità
+quantity_post_feature: Quantità di prossimi post
+from: A partire dal
+to: A
+comments: La tua versione di commenti
+comment: Vostro commento
+add_comment: Aggiungere un commento
+total: Totale
+discount: Sconto
+promotion_launch: Lancio promozione
+success: La vostra richiesta è stata ricevuta
+login_error: L'account è privato o non esiste
+post_error: L'post non esiste o è privato
+post_quantity_error: 'Pubblicazioni totali nel feed: {POST_NUM}'
+balance_error: Fondi sufficienti. Si prega di ricaricare il saldo di
+server_error: Errore del server

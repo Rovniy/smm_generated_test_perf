@@ -1,0 +1,47 @@
+.button {
+	background: linear-gradient(180deg, #1786EC 0%, #2691F4 100%);
+	border-radius: 50px;
+	border: none;
+	color: #FFF;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 7px 15px;
+	min-height: 47px;
+	min-width: 200px;
+	cursor: pointer;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		width: 18px;
+		height: 18px;
+		margin-right: 7px;
+		fill: white;
+	}
+
+	&__update {
+		cursor: pointer;
+		min-height: 32px;
+		min-width: 135px;
+		font-weight: 300;
+		position: relative;
+		padding: 5px 27px 5px 51px;
+		background-color: #1786EC;
+		border: 1px solid #BCDFFF;
+
+		&::before {
+			content: "";
+			width: 14px;
+			height: 14px;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' viewBox='0 0 32 32'%3E%3Cpath d='M28.541 7.089l-1.673-1.648c-5.965-5.885-15.667-5.885-21.632 0-2.768 2.708-4.484 6.481-4.484 10.655 0 0.008 0 0.016 0 0.025v0.215c0 0.65 0.527 1.177 1.177 1.177v0h0.457c0.65 0 1.177-0.527 1.177-1.177v0-0.216c0-3.287 1.296-6.375 3.656-8.702 4.869-4.804 12.797-4.804 17.666 0l1.687 1.663h-4.209c-0.65 0-1.177 0.527-1.177 1.177v0 0.435c0 0.65 0.527 1.177 1.177 1.177h7.813c0.65 0 1.177-0.527 1.177-1.177v0-7.689c0-0.65-0.527-1.177-1.177-1.177v0h-0.457c-0.65 0-1.177 0.527-1.177 1.177v0 4.084zM5.235 26.831c5.965 5.885 15.667 5.885 21.632 0 2.768-2.708 4.484-6.481 4.484-10.655 0-0.008 0-0.016 0-0.025v-0.217c0-0.65-0.527-1.177-1.177-1.177v0h-0.457c-0.65 0-1.177 0.527-1.177 1.177v0 0.218c0 3.287-1.297 6.375-3.656 8.702-4.869 4.802-12.797 4.802-17.666 0l-1.687-1.663h4.209c0.65 0 1.177-0.527 1.177-1.177v0-0.435c0-0.65-0.527-1.177-1.177-1.177v0h-7.813c-0.65 0-1.177 0.527-1.177 1.177v0 7.689c0 0.65 0.527 1.177 1.177 1.177v0h0.457c0.65 0 1.177-0.527 1.177-1.177v0-4.086l1.673 1.65z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E");
+			background-size: cover;
+			position: absolute;
+			left: 25px;
+			top: 8px;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+date_label: дата и время
+comment_label: вид платежа
+amount_label: сумма
+comission_label: комиссия
+empty: Ничего не найдено
+
+GROUP_UNKNOWN_LABEL: 'Неизвестная операция'
+
+DATE_FROM: 'Начальная дата'
+DATE_TO: 'Конечная дата'
+
+INFLOW_PAYMENT_LABEL: Пополнение баланса
+INFLOW_REFUND_LABEL: Возврат средств
+INFLOW_REF_BONUS_LABEL: Реферальный бонус
+INFLOW_CREATE_LABEL: Создано (Админом)
+INFLOW_OTHER_LABEL: Другое
+INFLOW_USER_JOB_LABEL: Заработок
+INFLOW_TEST_LABEL: Входящий (тест)
+OUTFLOW_ORDER_LABEL: Оплата заказов
+OUTFLOW_CANCEL_REF_BONUS_LABEL: Отмена реферального бонуса
+OUTFLOW_CANCEL_REFUND_LABEL: Отмена возврата
+OUTFLOW_DESTROY_LABEL: Уничтожено (Админом)
+OUTFLOW_WITHDRAWAL_LABEL: Вывод средств
+OUTFLOW_TEST_LABEL: Исходящий (Тест)
+OUTFLOW_OTHER_LABEL: Исходящий (Другое)
+UNKNOWN_LABEL: Неизвестно

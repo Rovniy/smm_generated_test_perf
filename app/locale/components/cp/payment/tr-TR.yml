@@ -1,0 +1,26 @@
+date_label: tarih ve saat
+comment_label: ödeme türü
+amount_label: miktar
+comission_label: komisyon
+empty: Hiçbir şey bulunamadı
+
+GROUP_UNKNOWN_LABEL: 'Bilinmeyen tür'
+
+DATE_FROM: 'Başlangıç tarihi'
+DATE_TO: 'Bitiş tarihi'
+
+INFLOW_PAYMENT_LABEL: Hesaba para yükle
+INFLOW_REFUND_LABEL: Para çek
+INFLOW_REF_BONUS_LABEL: Referans ödülü
+INFLOW_CREATE_LABEL: Created (by the admin)
+INFLOW_OTHER_LABEL: Başka
+INFLOW_USER_JOB_LABEL: Kazanç
+INFLOW_TEST_LABEL: Gelen (test)
+OUTFLOW_ORDER_LABEL: Alınan ödemeye
+OUTFLOW_CANCEL_REF_BONUS_LABEL: Referans ödülü iptal edildi
+OUTFLOW_CANCEL_REFUND_LABEL: Para çek  iptal edildi
+OUTFLOW_DESTROY_LABEL: Etmelerinin (by the admin)
+OUTFLOW_WITHDRAWAL_LABEL: Fondan para çekilmesini
+OUTFLOW_TEST_LABEL: Sempatik (test)
+OUTFLOW_OTHER_LABEL: Sempatik (başka)
+UNKNOWN_LABEL: Bilinmeyen

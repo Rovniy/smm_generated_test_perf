@@ -1,0 +1,67 @@
+/************************* RESPONSIVE MIXIN **************************/
+@mixin tablet
+	@media all and (min-width: $display_tablet)
+		@content
+
+@mixin tablet-xl
+	@media all and (min-width: $display_tablet-xl)
+		@content
+
+@mixin tablet-xl-1025
+	@media all and (min-width: $display_tablet-xl-1025)
+		@content
+
+@mixin desktop
+	@media all and (min-width: $display_desktop)
+		@content
+
+@mixin desktop-xl
+	@media all and (min-width: $display_desktop-xl)
+		@content
+
+
+/************************ FLEX CENTER ***********************/
+
+@mixin flex_center
+	display: flex
+	align-items: center
+	justify-content: center
+
+@mixin flex_center_column
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+
+@mixin flex_start
+	display: flex
+	align-items: flex-start
+	justify-content: flex-start
+
+@mixin flex_start_center_column
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: flex-start
+
+@mixin flex_center_start
+	display: flex
+	align-items: center
+	justify-content: flex-start
+
+@mixin flex_center_start_column
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: center
+
+@mixin flex_center_end
+	display: flex
+	align-items: center
+	justify-content: flex-end
+
+@mixin flex_space_between
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: space-between

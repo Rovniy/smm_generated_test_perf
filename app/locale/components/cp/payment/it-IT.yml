@@ -1,0 +1,26 @@
+date_label: Data e ora
+comment_label: Metodo di pagamento
+amount_label: Totale
+comission_label: Tassa
+empty: Ancora niente da
+
+GROUP_UNKNOWN_LABEL: Operazione sconosciuta
+
+DATE_FROM: Data di inizio
+DATE_TO: Data finale
+
+INFLOW_PAYMENT_LABEL: Ricaricare il saldo
+INFLOW_REFUND_LABEL: Prelevare
+INFLOW_REF_BONUS_LABEL: Bonus referral
+INFLOW_CREATE_LABEL: Creato (dall'amministratore)
+INFLOW_OTHER_LABEL: Altro
+INFLOW_USER_JOB_LABEL: Guadagno
+INFLOW_TEST_LABEL: In entrata (test)
+OUTFLOW_ORDER_LABEL: Pagamento dell'ordine
+OUTFLOW_CANCEL_REF_BONUS_LABEL: Cancellato il bonus referral
+OUTFLOW_CANCEL_REFUND_LABEL: Cancellato il prelevare
+OUTFLOW_DESTROY_LABEL: Rimosso (dall'amministratore)
+OUTFLOW_WITHDRAWAL_LABEL: Ritiro di fondi
+OUTFLOW_TEST_LABEL: Uscente (test)
+OUTFLOW_OTHER_LABEL: Uscente (altro)
+UNKNOWN_LABEL: Sconosciuto

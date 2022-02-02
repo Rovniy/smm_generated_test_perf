@@ -1,0 +1,30 @@
+label_1: Categoría de promoción
+label_2: Tipo de promoción
+label_2_price: Precio
+label_2_count: por 100
+label_2_count_more: por 1000
+url_required: Por favor complete este campo
+url_igtv: Enlace de IGTV
+url_video: Enlace de vídeo
+numerosity_single: Para una publicación
+numerosity_multiple: Para publicaciones recientes
+numerosity_label_like: Tipo de Me gusta
+numerosity_label_comment: Tipo de comentarios
+numerosity_label_default: Tipo
+quantity_label_views: Cantidad de reproducciones
+quantity_label_default: Cantidad
+quantity_post_feature: Cantidad de publicaciones futuras
+from: 'De'
+to: 'A'
+comments: Tus comentarios
+comment: Tu comentario
+add_comment: Agrega un comentario
+total: Total
+discount: Descuento
+promotion_launch: Lanzamiento de promoción
+success: su solicitud ha sido aceptada
+login_error: inicio de sesión no válido o cuenta cerrada
+post_error: esta publicación no existe o la cuenta está cerrada
+post_quantity_error: 'Publicaciones totales en el feed: {POST_NUM}'
+balance_error: fondos insuficientes, rellene el saldo
+server_error: Error del servidor

@@ -1,0 +1,393 @@
+price_1000: Precio por 1000 piezas
+price_100: Precio por 100 piezas
+startup: Lanzamiento
+speed: Ritmo
+min: Pedido mínimo
+max: Pedido máximo
+requirements: Requisitos para la cuenta
+requirements_default: Debe ser pública y tener la foto de perfil
+details: Detalles
+
+min_label: Cantidad mín.
+min_full_label: Cantidad mínima
+max_label: Cantidad máx.
+max_full_label: Cantidad máxima
+order_btn: Servicio de pedido
+count: piezas
+
+INSTAGRAM_SUBS_LK_DETAILS: {
+    startup: "En 5-300 minutos después del pago*.",
+    speed: "Hasta 2 000 por día",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. La garantía y el reabastecimiento automático son válidas durante 30 días.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. Garantizamos que los seguidores no dejarán de seguirle.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_MULTI_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. Garantizamos que los seguidores no dejarán de seguirle.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_LIVE_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_VIEWS_VIDEO_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.¡Atención! Las estadísticas de Instagram se actualizan con retraso.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_VIEWS_IGTV_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.¡Atención! Las estadísticas de Instagram se actualizan con retraso.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_VIEWS_STORY_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, indique su nombre de usuario o el enlace a la cuenta de Instagram.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_VIEWS_SHOWS_IMPRESSIONS_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.¡Atención! Las estadísticas de Instagram se actualizan con retraso.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_LIVE_VIEWERS_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "false",
+    details: "Cuentas reales y no activas de todo el mundo. ¡Ojo! Instagram actualiza las estadísticas con retraso.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, indique el enlace a la publicación en Instagram. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_COMMENTS_MULTI_POSITIVE_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, indique el enlace a la publicación en Instagram. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, indique el enlace a la publicación en Instagram. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_MULTI_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, indique el enlace a la publicación en Instagram. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_AUTO_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Me gusta para futuras publicaciones. Al realizar el pedido, indique su nombre de usuario o enlace a su cuenta de Instagram. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. La primera publicación debe publicarse al menos 20 minutos después de pedir los Me gusta automáticos.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+INSTAGRAM_AUTO_VIEWS_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: 'Reproducciones para futuros videos . No se promocionan en el "carrusel" (publicaciones de videos y fotos). Al realizar el pedido, indique su nombre de usuario o enlace a su cuenta de Instagram. La primera publicación debe publicarse al menos 20 minutos después de pedir las reproducciones automáticas.',
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_SUBS_LK_DETAILS: {
+    startup: "El lanzamiento de seguidores comienza entre 5 y 300 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil, se debe publicar al menos 1 publicación.",
+    details: "Proporcione el enlace a la cuenta de Tik Tok. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. La garantía y el reabastecimiento automático son válidas durante 30 días.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. Los Me gusta mejoran las estadísticas de la página. Ayudan a promocionar el video el la página Para ti.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_VIEWS_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Las visualizaciones mejoran las estadísticas de la página. Ayudan a promocionar el video el la página Para ti.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_AUTO_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Me gusta para futuros videos. Proporcione el nombre de usuario o un enlace a la cuenta de TikTok. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. El primer video debe publicarse al menos 20 minutos después de pedir los Me gusta automáticos.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_AUTO_VIEWS_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: 'Vistas automáticas para futuros videos. Proporcione un nombre de usuario o un enlace a la cuenta de TikTok. El primer video debe publicarse al menos 20 minutos después de ordenar las vistas automáticas.',
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_REPOSTS_LK_DETAILS: {
+    startup: "El lanzamiento de reposts comienza entre 5 y 120 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "¡Atención! Las estadísticas de TikTok se actualizan con retraso.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, proporcione el enlace a su video de TikTok. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+TIKTOK_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, proporcione el enlace a su video de TikTok. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+YOUTUBE_SUBS_LK_DETAILS: {
+    startup: "En 1 y 24 horas después del pago*.",
+    requirements: "Su cuenta debe ser pública. Se debe publicar al menos 1 vídeo. No debe haber restricciones de edad en el canal, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Proporcione el enlace al canal de YouTube. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los suscriptores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+YOUTUBE_LIKES_LK_DETAILS: {
+    startup: "En 1 y 24 horas después del pago*.",
+    requirements: "Su cuenta debe ser pública. No debe haber restricciones de edad en el canal, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Proporcione el enlace a un video de YouTube. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los suscriptores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+YOUTUBE_DISLIKES_LK_DETAILS: {
+    startup: "En 1 y 24 horas después del pago*.",
+    requirements: "Su cuenta debe ser pública. No debe haber restricciones de edad en el canal, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Proporcione el enlace a un video de YouTube. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los suscriptores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+YOUTUBE_VIEWS_LK_DETAILS: {
+    startup: "En 1 y 24 horas después del pago*.",
+    requirements: "Su cuenta debe ser pública. No debe haber restricciones de edad en el canal, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Proporcione el enlace a un video de YouTube. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los suscriptores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+VK_SUBS_LK_DETAILS: {
+    startup: "En 5 y 300 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. La garantía y el reabastecimiento automático son válidas durante 30 días.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+VK_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. Garantizamos que los seguidores no dejarán de seguirle.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+VK_AUTO_LIKES_LK_DETAILS: {
+    startup: "En 5 y 20 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Me gusta para futuras publicaciones. Al realizar el pedido, indique su nombre de usuario o enlace a su cuenta de VK. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones. La primera publicación debe publicarse al menos 20 minutos después de pedir los Me gusta automáticos.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+VK_REPOSTS_LK_DETAILS: {
+    startup: "En 5 y 120 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "¡Atención! Las estadísticas de VK se actualizan con retraso.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+VK_COMMENTS_LK_DETAILS: {
+    startup: "En 5 y 60 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Al realizar el pedido, indique el enlace a la publicación en VK. Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los seguidores son reales y el resto son bots (robots) de alta calidad con fotos del perfil y publicaciones.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+VK_FRIENDS_LK_DETAILS: {
+    startup: "En 5 y 300 minutos después del pago*.",
+    requirements: "La cuenta debe ser pública y tener foto del perfil, además, no debe haber restricciones de edad en el perfil, no debe haber restricciones de Comentarios en el perfil.",
+    details: "Dependiendo de los algoritmos actuales de la red social, la promoción es de tipo mixto: el 30% de los amigos son reales y el resto son bots (robots) de alta calidad con fotos del perfil y la información completa en la página. ¡Atención! Las estadísticas de Vkontakte pueden actualizarse con retraso.",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}
+
+FAKE_SERVICE_LK_DETAILS: {
+    startup: "Instant",
+    min: "0",
+    max: "0",
+    requirements: "-",
+    details: "-",
+    up_to: "Hasta",
+    in: "por",
+    default_frequency: "día",
+    hour: "hora",
+    day: "día",
+}

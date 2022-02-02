@@ -1,0 +1,122 @@
+.form {
+	&__group {
+		margin-bottom: 18px;
+	}
+
+	&__button {
+		min-height: 37px;
+		font-size: 13px;
+	}
+
+	&__commission {
+		margin-bottom: 30px;
+	}
+
+	&__input {
+		height: 47px;
+		width: 100%;
+		background-color: #F8F9FC;
+		border: 1px solid #ECEEF3;
+		border-radius: 4px;
+		padding: 10px 10px 10px 35px;
+		font-family: 'Segoe UI', sans-serif;
+		font-size: 14px;
+		line-height: 19px;
+		color: #7E8187;
+		@media (max-width: 576px) {
+			padding: 10px 10px 10px 20px;
+		}
+	}
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 40px;
+	}
+
+	.multiselect {
+		$self: &;
+
+		&__tags {
+			height: 47px;
+			width: 100%;
+			background: #F8F9FC;
+			border: 1px solid #ECEEF3;
+			border-radius: 4px;
+			padding: 10px 10px 10px 35px;
+			@media (max-width: 576px) {
+				padding: 10px 10px 10px 20px;
+			}
+		}
+
+		&__single {
+			padding: 0;
+			margin: 0;
+			background-color: transparent;
+			font-family: "Segoe UI", sans-serif;
+			font-size: 14px;
+			line-height: 23px;
+			color: #7E8187;
+			display: flex;
+		}
+
+		&__select {
+			height: 47px;
+
+			&::before {
+				content: "v";
+				top: 12px;
+				border: none;
+				color: #2691F4;
+			}
+		}
+
+		&__input {
+			background-color: transparent;
+
+			&:focus {
+				background-color: transparent;
+			}
+		}
+
+		&__option {
+			$child: &;
+
+			&--highlight {
+				background-color: lighten($color: #2691F4, $amount: 5%);
+
+				&::after {
+					background-color: lighten($color: #2691F4, $amount: 5%);
+				}
+			}
+
+			&--selected {
+				background-color: lighten($color: #2691F4, $amount: 10%);
+				color: #FFF;
+
+				&::after {
+					color: #FFF;
+				}
+
+				&:hover {
+					background-color: lighten($color: #2691F4, $amount: 10%);
+					color: #FFF;
+
+					&::after {
+						background-color: lighten($color: #2691F4, $amount: 10%);
+						color: #FFF;
+					}
+				}
+				#{$self}#{$child}--highlight {
+					background-color: #2691F4;
+				}
+			}
+		}
+	}
+
+	.multiselect__option--selected.multiselect__option--highlight {
+		background-color: #2691F4;
+		color: #FFF;
+	}
+}

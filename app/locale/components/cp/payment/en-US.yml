@@ -1,0 +1,26 @@
+date_label: date and time
+comment_label: type of payment
+amount_label: amount
+comission_label: commission
+empty: Nothing found
+
+GROUP_UNKNOWN_LABEL: 'Unknown type'
+
+DATE_FROM: 'Start date'
+DATE_TO: 'End date'
+
+INFLOW_PAYMENT_LABEL: Top up balance
+INFLOW_REFUND_LABEL: Withdraw funds
+INFLOW_REF_BONUS_LABEL: Referral bonus
+INFLOW_CREATE_LABEL: Created (by the admin)
+INFLOW_OTHER_LABEL: Other
+INFLOW_USER_JOB_LABEL: Revenue
+INFLOW_TEST_LABEL: Incoming (test)
+OUTFLOW_ORDER_LABEL: Payment of the order
+OUTFLOW_CANCEL_REF_BONUS_LABEL: Cancelled referral bonus
+OUTFLOW_CANCEL_REFUND_LABEL: Cancelled withdraw funds
+OUTFLOW_DESTROY_LABEL: Removed (by the admin)
+OUTFLOW_WITHDRAWAL_LABEL: Withdrawal of funds
+OUTFLOW_TEST_LABEL: Outgoing (test)
+OUTFLOW_OTHER_LABEL: Outgoing (other)
+UNKNOWN_LABEL: Unknown

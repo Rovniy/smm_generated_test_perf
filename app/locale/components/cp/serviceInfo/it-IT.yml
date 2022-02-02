@@ -1,0 +1,388 @@
+price_1000: Prezzo per 1000 pezzi
+price_100: Prezzo per 100 pezzi
+startup: Lancio
+speed: Velocità di promozione
+min: Ordine minimo
+max: Ordine massimo
+requirements: Requisiti per l'account
+requirements_default: Dovrebbe essere pubblico ed avere una foto del profilo
+details: Dettagli
+
+min_label: Quantità min
+min_full_label: Quantità minima
+max_label: Quantità mass
+max_full_label: Quantità massimo
+order_btn: Ordina un servizio
+count: pezzi
+
+INSTAGRAM_SUBS_LK_DETAILS: {
+    startup: "Entro 5-300 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. La garanzia e la ricarica automatica sono validi per 30 giorni.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, la boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Garanzia no-unfollow.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_MULTI_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, la boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Garanzia no-unfollow.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_LIVE_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il link sul tuo post VK. In base agli attuali algoritmi dei social network, il traffico è di tipo misto: 30% di follower reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_VIEWS_VIDEO_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Nota! Gli aggiornamenti di statistica su Instagram sono in ritardo.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_VIEWS_IGTV_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Nota! Gli aggiornamenti di statistica su Instagram sono in ritardo.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_VIEWS_STORY_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il proprio login o il link sul tuo account Instagram.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_VIEWS_SHOWS_IMPRESSIONS_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Nota! Gli aggiornamenti di statistica su Instagram sono in ritardo.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_LIVE_VIEWERS_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "false",
+    details: "Account inattivi provenienti da tutto il mondo. Nota! La statistica su Instagram si aggiorna con ritardo.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il link sul tuo post Instagram. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_MULTI_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il link sul tuo post Instagram. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il link sul tuo post Instagram. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_MULTI_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il link sul tuo post Instagram. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+INSTAGRAM_AUTO_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Likes sui prossimi post. Durante un ordine, fornire il proprio login o il link sul tuo account Instagram. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Il tuo primo post dovrebbe essere pubblicato almeno 20 minuti dopo l'ordine di autolikes."
+}
+
+INSTAGRAM_AUTO_VIEWS_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    speed: "Fino a 200 000 al giorno",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Visualizzazioni per i video futuri. Non possiamo aumentare le visualizzazioni per i “caroselli” (post che contengono video e foto). Durante un ordine, fornire il proprio login o il link sul tuo account Instagram. Il tuo primo post dovrebbe essere pubblicato almeno 20 minuti dopo l'ordine di visualizzazioni automatiche.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_SUBS_LK_DETAILS: {
+    startup: "Entro 5-300 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti, almeno 1 post deve essere pubblicato.",
+    details: "Fornire il login o il link al tuo account TikTok. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto foto e post. La garanzia e la ricarica automatica sono validi per 30 giorni.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post. I likes migliorano la tua statistica. Aiutano il tuo video ad entrare nelle raccomandazioni.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_VIEWS_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Le visualizzazioni migliorano la tua statistica. Aiutano il tuo video ad entrare nelle raccomandazioni.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_AUTO_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Likes ai video futuri. Fornire il login o il link al tuo account TikTok. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post. Il tuo primo video deve essere pubblicato almeno 20 minuti dopo l'ordine di autolikes.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_AUTO_VIEWS_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: 'Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.',
+    details: "Visualizzazioni per i video futuri. Fornire il login o il link al tuo account TikTok.  Il tuo primo post dovrebbe essere pubblicato almeno 20 minuti dopo l'ordine di visualizzazioni automatiche.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_REPOSTS_LK_DETAILS: {
+    startup: "Il caricamento delle condivisioni inizia entro 5-120 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Nota! Gli aggiornamenti di statistica sono in ritardo su TikTok!",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante un ordine, fornire il link sul tuo video TikTok. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+TIKTOK_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante un ordine, fornire il link sul tuo video TikTok. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+YOUTUBE_SUBS_LK_DETAILS: {
+    startup: "Entro 1-24 ore dopo il pagamento*.",
+    requirements: "Il tuo canale deve essere impostato su pubblico. Deve essere pubblicato almeno 1 video. Non ci dovrebbe essere alcun limite di età impostato sul canale, e senza limiti di commenti.",
+    details: "Fornire il link al tuo canale YouTube. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+YOUTUBE_LIKES_LK_DETAILS: {
+    startup: "Entro 1-24 ore dopo il pagamento*.",
+    requirements: "Il tuo canale deve essere impostato su pubblico. Non ci dovrebbe essere alcun limite di età impostato sul canale, e senza limiti di commenti.",
+    details: "Fornire il link a un video su YouTube. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+YOUTUBE_DISLIKES_LK_DETAILS: {
+    startup: "Entro 1-24 ore dopo il pagamento*.",
+    requirements: "Il tuo canale deve essere impostato su pubblico. Non ci dovrebbe essere alcun limite di età impostato sul canale, e senza limiti di commenti.",
+    details: "Fornire il link a un video su YouTube. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+YOUTUBE_VIEWS_LK_DETAILS: {
+    startup: "Entro 1-24 ore dopo il pagamento*.",
+    requirements: "Il tuo canale deve essere impostato su pubblico. Non ci dovrebbe essere alcun limite di età impostato sul canale, e senza limiti di commenti.",
+    details: "Fornire il link a un video su YouTube. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+VK_SUBS_LK_DETAILS: {
+    startup: "Entro 5-300 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. La garanzia e la ricarica automatica sono validi per 30 giorni.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+VK_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "In base agli attuali algoritmi del social network, la boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Garanzia no-unfollow.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+VK_AUTO_LIKES_LK_DETAILS: {
+    startup: "Entro 5-20 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Likes sui prossimi post. Durante un ordine, fornire il proprio login o il link sul tuo account VK. In base agli attuali algoritmi del social network, il boost è di tipo misto: 30% di followers reali e il resto sono i bot di alta qualità (robot) con profilo foto e post. Il tuo primo post dovrebbe essere pubblicato almeno 20 minuti dopo l'ordine di autolikes.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+VK_REPOSTS_LK_DETAILS: {
+    startup: "Il caricamento delle condivisioni inizia entro 5-120 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Nota! La statistica su VK si aggiorna con ritardo.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+VK_COMMENTS_LK_DETAILS: {
+    startup: "Entro 5-60 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il link sul tuo post VK. In base agli attuali algoritmi dei social network, il traffico è di tipo misto: 30% di follower reali e il resto sono i bot di alta qualità (robot) con foto profilo e post.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+VK_FRIENDS_LK_DETAILS: {
+    startup: "Entro 5-300 minuti dopo il pagamento*.",
+    requirements: "Il tuo account deve essere pubblico, avere una foto del profilo e senza limiti di età, e senza limiti di commenti.",
+    details: "Durante l'ordine, fornire il link sul tuo post VK. In base agli attuali algoritmi dei social network, il traffico è di tipo misto: 30% di follower reali e il resto sono i bot di alta qualità (robot) con foto profilo e post. Nota! La statistica su VK si aggiorna con ritardo.",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}
+
+FAKE_SERVICE_LK_DETAILS: {
+    startup: "Мгновенно",
+    min: "0",
+    max: "0",
+    requirements: "-",
+    details: "-",
+    up_to: "Fino",
+    in: "al",
+    default_frequency: "giorno",
+    hour: "all'ora",
+    day: "giorno",
+}

@@ -1,0 +1,392 @@
+price_1000: 1000 adet için fiyat
+price_100: 100 adet için fiyat
+startup: Başlatılma
+speed: Promosyon hızı
+min: Minimum sipariş
+max: Maksimum sipariş
+requirements: Sayfadaki gerekenler
+requirements_default: açık ve profil resmi olması gerekiyor
+details: Detaylar
+
+min_label: Min. miktar
+min_full_label: Minimum miktar
+max_label: Maks. miktar
+max_full_label: Maksimum miktar
+order_btn: Sipariş servisi
+count: adet
+
+INSTAGRAM_SUBS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-300 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Garanti 30 günlüktür.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Para çekmeme garantili.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_MULTI_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Para çekmeme garantili.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_LIVE_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Dikkat! İnstagram istatistikleri gecikmeli güncelleniyor.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_VIEWS_VIDEO_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Dikkat! İnstagram istatistikleri gecikmeli güncelleniyor.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_VIEWS_IGTV_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Dikkat! İnstagram istatistikleri gecikmeli güncelleniyor.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_VIEWS_STORY_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken İnstagram hesabın kullanıcı adını veya linkini girin.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_VIEWS_SHOWS_IMPRESSIONS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Dikkat! İnstagram istatistikleri gecikmeli güncelleniyor.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_LIVE_VIEWERS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "false",
+    details: "Bütün dünyadan terk edilmiş hesaplar. Dikkat! İnstagram istatistikleri gecikmeli olarak değişiyor.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken, İnstagram paylaşımının linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_MULTI_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken, İnstagram paylaşımının linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken, İnstagram paylaşımının linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_MULTI_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken, İnstagram paylaşımının linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_AUTO_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Gelecekteki gönderiler için beğeniler. Sipariş verirken, giriş bilgilerinizi belirtin veya Instagram hesabınıza bağlantı verin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.  Otomatik beğeni sipariş ettikten sonraki ilk gönderi, en geç 20 dakika sonra yüklenmelidir.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+INSTAGRAM_AUTO_VIEWS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: 'Gelecekteki videolar için görüntülemeler. Bunlar "atlıkarınca" (videolardan ve fotoğraflardan yayınlar) üzerine gelmezler. Sipariş verirken, giriş bilgilerinizi belirtin veya Instagram hesabınızın linkini girin. Otomatik görünümleri sipariş ettikten sonraki ilk gönderi, en geç 20 dakika sonra yüklenmelidir.',
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_SUBS_LK_DETAILS: {
+    startup: "Takipçiler, ödeme yapıldıktan sonra 5-300 dakika içinde gelmeye başlayacaklar*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım, en az 1 gönderi yayınlanmalıdır.",
+    details: "TikTok hesabının kullanıcı adını veya linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Beğeniler, sayfa istatistiklerini artırır. Videonun önerilen şekilde çıkmasına yardımcı olurlar.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_VIEWS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Görüntülemeler, sayfa istatistiklerini artırır. Videonun önerilen şekilde çıkmasına yardımcı olurlar.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_AUTO_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Gelecekteki videolara beğenme. TikTok kullanıcı adı veya linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_AUTO_VIEWS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: 'Gelecekteki videolar için otomatik görüntüleme. Kullanıcı adınızı veya TikTok bağlantısını girin. Otomatik incelemelerin siparişinden sonraki ilk video 20 dakikadan daha erken değildir.',
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_REPOSTS_LK_DETAILS: {
+    startup: "Paylaşım, ödeme yapıldıktan sonra 5-120 dakika içinde başlayacak*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Dikkat! TikTok istatistikleri gecikmeli olarak güncellenir.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_COMMENTS_POSITIVE_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken, TikTok videosunun linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+TIKTOK_COMMENTS_CUSTOM_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken, TikTok videosunun linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+YOUTUBE_SUBS_LK_DETAILS: {
+    startup: "Ödemeden sonra 1-24 saat içinde*.",
+    requirements: "Kanalın açık olması lazımdır. En az 1 video yayınlanmalıdır. Kanalda yaş sınırlaması olmamalıdır, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "YouTube linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+YOUTUBE_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 1-24 saat içinde*.",
+    requirements: "Kanalın açık olması lazımdır. Kanalda yaş sınırlaması olmamalıdır, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "YouTube videosunun linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+YOUTUBE_DISLIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 1-24 saat içinde*.",
+    requirements: "Kanalın açık olması lazımdır. Kanalda yaş sınırlaması olmamalıdır, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "YouTube videosunun linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+YOUTUBE_VIEWS_LK_DETAILS: {
+    startup: "Ödemeden sonra 1-24 saat içinde*.",
+    requirements: "Kanalın açık olması lazımdır. Kanalda yaş sınırlaması olmamalıdır, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "YouTube videosunun linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+VK_SUBS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-300 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Garanti 30 günlüktür",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+VK_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır. Para çekmeme garantili",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+VK_AUTO_LIKES_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-20 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Gelecekteki gönderiler için beğeniler. Sipariş verirken, giriş bilgilerinizi belirtin veya VK hesabınıza bağlantı verin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.  Otomatik beğeni sipariş ettikten sonraki ilk gönderi, en geç 20 dakika sonra yüklenmelidir.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+VK_REPOSTS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-120 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Dikkat! VK istatistikleri gecikmeli olarak güncellenir.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+VK_COMMENTS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-60 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sipariş verirken, VK paylaşımının linkini girin. Sosyal ağın mevcut algoritmalarına bağlı olarak, promosyon karma bir türdedir: Canlı abonelerin% 30'u gerçektir ve geri kalanı profil resimli ve bağlantılı olan yüksek kaliteli botlardır.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+VK_FRIENDS_LK_DETAILS: {
+    startup: "Ödemeden sonra 5-300 dakika içinde*.",
+    requirements: "Bu profilin açık ve profil resmi olması lazım ve yaş sınırlamasının olmaması lazım, olması lazım ve yorum sınırlamasının olmaması lazım.",
+    details: "Sosyal ağın algoritmalarına bağlı olarak, promosyon karma bir türdedir: arkadaşların % 30'u gerçek insanlardır ve geri kalanı profil resimli ve sayfaları dolu olan yüksek kaliteli botlardır (robotlar).  Dikkat!  Vkontakte istatistikleri gecikmeli olarak güncellenebilir.",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}
+
+FAKE_SERVICE_LK_DETAILS: {
+    startup: "Instant",
+    min: "0",
+    max: "0",
+    requirements: "-",
+    details: "-",
+    up_to: "Önce",
+    in: "içinde",
+    default_frequency: "gün",
+    hour: "saat",
+    day: "gün",
+}

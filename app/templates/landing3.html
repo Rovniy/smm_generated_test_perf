@@ -1,0 +1,15 @@
+<section class="landing3__wrapper" :class="[ { 'landing3__wrapper--odd': landingWrapperOdd }, cssClass ]">
+	<LazyLandingHeader v-if="isReadyToShow" class="landing3__header" :scroll-top-offset="50"	/>
+
+	<LazyLandingBanner :data="banner" :promo-button="promoButton" class="landing3__banner">
+		<canvas id="banner" class="landing3__banner-promo"/>
+	</LazyLandingBanner>
+
+	<LazyLandingCarousels v-if="isReadyToShow" id="services" :carousels="carousels" class="landing3__carousels" />
+
+	<LazyLandingAccordion v-if="isReadyToShow" id="faq" :data="accordionData" :seo="seo" class="landing3__accordion" />
+
+	<LazyLandingFeatures v-if="isReadyToShow" id="features" :seo="seo" :features="features" :promo-button="promoButton" />
+
+	<LazyLandingThanks v-if="isReadyToShow" />
+</section>

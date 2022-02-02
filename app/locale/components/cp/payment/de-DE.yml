@@ -1,0 +1,26 @@
+date_label: Datum und Uhrzeit
+comment_label: Zahlungsmethode
+amount_label: Gesamt
+comission_label: Gebühr
+empty: Nichts gefunden
+
+GROUP_UNKNOWN_LABEL: Unbekannte Operation
+
+DATE_FROM: Startdatum
+DATE_TO: Enddatum
+
+INFLOW_PAYMENT_LABEL: Guthaben aufladen
+INFLOW_REFUND_LABEL: Auszahlungen
+INFLOW_REF_BONUS_LABEL: Empfehlungs bonus
+INFLOW_CREATE_LABEL: Erstellt (durch den admin)
+INFLOW_OTHER_LABEL: Andere
+INFLOW_USER_JOB_LABEL: Einnahmen
+INFLOW_TEST_LABEL: Eingehenden (test)
+OUTFLOW_ORDER_LABEL: Bezahlung der bestellung
+OUTFLOW_CANCEL_REF_BONUS_LABEL: Empfehlungs bonus abgebrochen
+OUTFLOW_CANCEL_REFUND_LABEL: Auszahlungen abgebrochen
+OUTFLOW_DESTROY_LABEL: Entfernt (durch den admin)
+OUTFLOW_WITHDRAWAL_LABEL: Geldabhebungen
+OUTFLOW_TEST_LABEL: Ausgehend (test)
+OUTFLOW_OTHER_LABEL: Ausgehend (andere)
+UNKNOWN_LABEL: Unbekannt

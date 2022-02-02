@@ -1,0 +1,27 @@
+<svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#029eff">
+ <defs>
+  <linearGradient id="a" x1="1.818" x2="2.75" y1="1.818" y2="1.102" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#029eff" offset="0"/>
+   <stop stop-color="#029eff" stop-opacity="0.75" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="2.75" x2="3.836" y1="1.102" y2=".6521" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#029eff" stop-opacity="0.75" offset="0"/>
+   <stop stop-color="#029eff" stop-opacity="0.5" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c" x1="3.836" x2="5" y1=".6521" y2=".5" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#029eff" stop-opacity="0.5" offset="0"/>
+   <stop stop-color="#029eff" stop-opacity="0.25" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1="5" x2="6.165" y1=".5" y2=".6523" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#029eff" stop-opacity="0.25" offset="0"/>
+   <stop stop-color="#029eff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m9.5 5a4.5 4.5 0 0 1-2.25 3.897 4.5 4.5 0 0 1-4.5-2e-7 4.5 4.5 0 0 1-2.25-3.897" stroke-linecap="round"/>
+ <path d="m0.5 5a4.5 4.5 0 0 1 1.318-3.182"/>
+ <path d="m1.818 1.818c0.2771-0.2771 0.5903-0.5183 0.9318-0.7159" stroke="url(#a)"/>
+ <path d="m2.75 1.102c0.3368-0.1948 0.7012-0.3473 1.086-0.45" stroke="url(#b)"/>
+ <path d="m3.836 0.6521c0.3714-0.0992 0.7617-0.1521 1.164-0.1521" stroke="url(#c)"/>
+ <path d="m5 0.5c0.4029 0 0.7934 0.05295 1.165 0.1523" stroke="url(#d)"/>
+
+</svg>

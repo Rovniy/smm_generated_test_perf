@@ -1,0 +1,13 @@
+<svg
+  viewBox="0 0 24 24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="m23 12h-13m7-6 6 6-6 6m-5-17h-9c-1 0-2 1-2 2v18c0 1 1 2 2 2h9"
+    fill="none"
+    stroke="#ff4646"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="2"
+  />
+</svg>
