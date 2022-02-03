@@ -36,10 +36,10 @@ export default (axios, store) => ({
 			const reg = store.getters['locale/region']
 			return axios.$get(
 				`${SERVICE_URL}/find`, {
-					params: {
-						reg,
-						...params,
-					},
+				  params: {
+				    reg,
+				    ...params,
+				  },
 				},
 			)
 		},

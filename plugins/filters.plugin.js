@@ -23,7 +23,7 @@ const thousandsHandler = (val = 0, clear = true) => {
 			.format(preparedValue))
 			.replace(',', '.')
 	}
- 	catch {
+	catch {
 		const parts = preparedValue.toString().split('.')
 
 		parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ' ')

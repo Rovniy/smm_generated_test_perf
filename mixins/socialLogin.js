@@ -25,7 +25,7 @@ export default {
 			}
 			try {
 				const response = await this.$http.uLoginByToken(uLoginTokenData)
-				if ('success' !== response.status) {
+				if (response.status !== 'success') {
 					throw response
 				}
 				const token = get(response, 'data.token', false)
@@ -69,7 +69,7 @@ export default {
 						},
 					},
 				)
-				if (200 !== response.status || 'success' !== response.data.status) {
+				if (response.status !== 200 || response.data.status !== 'success') {
 					throw response
 				}
 			}

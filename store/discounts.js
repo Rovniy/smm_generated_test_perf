@@ -21,7 +21,7 @@ export const actions = {
 			return
 		}
 		const response = await this.$http.user.getStatuses()
-		if ('success' !== response.status) {
+		if (response.status !== 'success') {
 			throw response
 		}
 		commit('setDiscountLevels', response.data)

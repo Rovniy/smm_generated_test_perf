@@ -227,16 +227,16 @@ export default {
 					return 'labelUrlLogin_login_or_group_vk' // Логин или ссылка на группу
 				case 'INSTAGRAM_VIEWS_STORY_MAIN':
 					return 'labelUrlLogin_login_or_account_or_story' // Логин или ссылка на аккаунт/историю
-				// case 'INSTAGRAM_SUBS_MAIN':
-				// case 'INSTAGRAM_AUTO_VIEWS_MAIN':
-				// case 'INSTAGRAM_AUTO_LIKES_MAIN':
-				// case 'INSTAGRAM_MULTI_LIKES_MAIN':
-				// case 'TIKTOK_SUBS_MAIN':
-				// case 'TIKTOK_AUTO_VIEWS_MAIN':
-				// case 'TIKTOK_AUTO_LIKES_MAIN':
-				// case 'YOUTUBE_SUBS_MAIN':
-				// case 'VK_FRIENDS_MAIN':
-				// case 'VK_AUTO_LIKES_MAIN':
+					// case 'INSTAGRAM_SUBS_MAIN':
+					// case 'INSTAGRAM_AUTO_VIEWS_MAIN':
+					// case 'INSTAGRAM_AUTO_LIKES_MAIN':
+					// case 'INSTAGRAM_MULTI_LIKES_MAIN':
+					// case 'TIKTOK_SUBS_MAIN':
+					// case 'TIKTOK_AUTO_VIEWS_MAIN':
+					// case 'TIKTOK_AUTO_LIKES_MAIN':
+					// case 'YOUTUBE_SUBS_MAIN':
+					// case 'VK_FRIENDS_MAIN':
+					// case 'VK_AUTO_LIKES_MAIN':
 				default:
 					return 'labelUrlLogin_login_or_account' // Логин или ссылка на аккаунт
 			}
@@ -493,7 +493,7 @@ export default {
 					...this.requestTagged,
 					tag: this.numerositiedTag,
 				})
-				if ('success' !== response.status) {
+				if (response.status !== 'success') {
 					throw response
 				}
 				const paymentId = get(response, 'data.payment_session.id', undefined)
@@ -590,7 +590,7 @@ export default {
 				let index = 0
 				if ('boolean' === typeof x) { // boolean argument moves focus: true -> next, false -> prev
 					index = keys.findIndex(key => this.$refs[key] === document.activeElement)
-					index = (-1 !== index) && ((index + (x ? 1 : -1) + keys.length) % keys.length)
+					index = (index !== -1) && ((index + (x ? 1 : -1) + keys.length) % keys.length)
 				}
 				this.$refs[keys[+index]]?.focus() // no argument sets focus on first field
 			}

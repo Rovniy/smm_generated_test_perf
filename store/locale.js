@@ -49,7 +49,7 @@ export const actions = {
 	async init({ commit }) {
 		try {
 			const response = await this.$http.region()
-			if ('success' !== response.status) {
+			if (response.status !== 'success') {
 				throw response
 			}
 			if (
