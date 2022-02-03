@@ -54,12 +54,12 @@
 				</ul>
 			</li>
 			<li class="nav3__item--mobile-only">
-				<nuxt-link
-					:to="localePath('/login')"
-					class="nav3__link">
-					<icon-menu-login class="nav3__icon" />
-					{{ $t('nav_login') }}
-				</nuxt-link>
+				<icon-menu-login class="nav3__icon" />
+				<a
+					class="nav3__link__login"
+					href="https://smmtouch.com/login"
+					rel="noopener"
+					target="_blank">{{ $t('nav_login') }}</a>
 			</li>
 		</ul>
 	</nav>
@@ -184,6 +184,8 @@ $nav-link-padding-x: 21px;
 	}
 
 	&__item--mobile-only {
+		display: flex;
+		margin: 20px 0;
 		@include media-breakpoint-up(lg) {
 			display: none;
 		}
@@ -195,6 +197,13 @@ $nav-link-padding-x: 21px;
 		padding: 20px 0;
 		font-size: calc_rem(15px);
 		user-select: none;
+
+		&__login {
+			display: flex;
+			align-items: center;
+			font-size: calc_rem(15px);
+			user-select: none;
+		}
 
 		&:not(:only-child) {
 			&::after {

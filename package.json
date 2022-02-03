@@ -14,7 +14,6 @@
     "fintall": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "lint": "eslint",
     "fint": "eslint --ext .js,.vue --fix --ignore-path .gitignore .",
-    "stylelint-fix": "stylelint ./**/*.{vue,scss} --fix",
     "svgOptimize": "svg.optimization.sh",
     "test": "jest --verbose"
   },

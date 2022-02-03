@@ -43,11 +43,11 @@
 				</div>
 				<div class="header2-landing2__right header3__right">
 					<LazyLandingNavLang v-if="isLangEnabled" />
-					<nuxt-link
-						:to="localePath('/login')"
-						class="header3__login">
-						{{ $t('nav_login') }}
-					</nuxt-link>
+					<a
+						class="header3__login"
+						href="https://smmtouch.com/login"
+						rel="noopener"
+						target="_blank">{{ $t('nav_login') }}</a>
 				</div>
 			</div>
 			<transition name="burger_backdrop">

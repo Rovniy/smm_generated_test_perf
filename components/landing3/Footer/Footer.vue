@@ -9,12 +9,12 @@
 							path: localePath('landing3'),
 							hash: '#__layout',
 						}">
-						<nuxt-img
-							src="images/logo/logo_white.svg"
+						<img
+							src="~assets/images/logo/logo_white.svg"
 							width="123"
 							height="38"
 							alt="logo"
-							loading="lazy" />
+							loading="lazy">
 					</nuxt-link>
 					<div class="footer3__text">
 						{{ $t('HEADER_FOOTER_SEO_TEXT') }}
@@ -129,8 +129,9 @@ export default {
 				},
 			}, {
 				title: 'nav_blog',
-				to: '/blog',
-				available_lang: [ 'ru' ],
+				externalUrl: 'https://smmtouch.com/blog?page=1',
+				noopener: 'noopener',
+				target: '_blank',
 			}, {
 				title: 'nav_reviews',
 				externalUrl: 'https://otzyvmarketing.ru/smmtouch/',
@@ -141,8 +142,9 @@ export default {
 		sourceLinkList2() {
 			return [{
 				title: 'nav_login',
-				to: 'login',
-				translatePath: true,
+				externalUrl: 'https://smmtouch.com/login',
+				noopener: 'noopener',
+				target: '_blank',
 			}, {
 				title: 'nav_oferta',
 				externalUrl: 'it' === this.$i18n.locale
