@@ -46,34 +46,40 @@ export const mutations = {
 }
 
 export const actions = {
-	async init({ commit }) {
-		try {
-			console.log('this.$ua', this.$ua)
+	getRegion({ commit, getters, rootState }) {
+		if (getters.region) {
+			return getters.region
+		}
 
-			const response = await this.$http.region()
-			if (response.status !== 'success') {
-				throw response
-			}
-			if (
-				process.server
-		        && 'CIS' === response.data.region
-        		&& !this.$cookiz.get('i18n_region')
-        		&& !this.$ua.isFromCrawler()
-			) {
-				this.$i18n.setLocaleCookie('ru')
-				this.$cookiz.set('i18n_region', 'ru')
-			}
-			commit('data', response.data)
-		}
-		catch (e) {
-			console.error(e)
-		}
+		return this.$http.region()
+			.then(({ status, data }) => {
+				if (status !== 'success') {
+					throw status
+				}
+				if ('CIS' === data.region
+					&& !this.$cookiz.get('i18n_region')
+					&& !this.$ua.isFromCrawler()
+				) {
+					this.$i18n.setLocaleCookie('ru')
+					this.$cookiz.set('i18n_region', 'ru')
+				}
+
+				commit('data', data)
+
+				return data
+			})
+			.then(data => {
+				if ('ru' === rootState.i18n.locale) {
+					return 'CIS'
+				}
+				return data.region
+			})
 	},
 	clientInit({ state, commit, dispatch }) {
 		if (state.inited) {
 			return
 		}
 		commit('inited')
-		dispatch('init')
+		dispatch('getRegion')
 	},
 }

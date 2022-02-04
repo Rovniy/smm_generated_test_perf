@@ -5,7 +5,7 @@ export default (platform, client = 'CLIENT_MAIN') => async({ store, route }) => 
 	if (route.name.includes('index___')) {
 		try {
 			prefetchedData = require('../static/instagram_services.json')
-			prefetchedCosts = require(`../static/instagram_costs_${store.getters['locale/currency']}.json`)
+			prefetchedCosts = require(`../static/instagram_costs_${(await store.dispatch('locale/getRegion'))}.json`)
 		}
 		catch {}
 	}

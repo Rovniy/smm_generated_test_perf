@@ -32,8 +32,9 @@ export default (axios, store) => ({
 		},
 	},
 	services: {
-		find(params) {
-			const reg = store.getters['locale/region']
+		async find(params) {
+			const reg = await store.dispatch('locale/getRegion')
+
 			return axios.$get(
 				`${SERVICE_URL}/find`, {
 				  params: {
@@ -55,8 +56,8 @@ export default (axios, store) => ({
 			return axios.$get('prices/orderCost', { params })
 		},
 	},
-	order(data) {
-		const reg = store.getters['locale/region']
+	async order(data) {
+		const reg = await store.dispatch('locale/getRegion')
 		return axios.$post(
 			'c_orders/main', {
 				...data,

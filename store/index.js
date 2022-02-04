@@ -3,9 +3,7 @@ export const actions = {
 	async nuxtClientInit({ dispatch }, ctx) {
 		await dispatch('responsive/getWidthDevice', ctx)
 
-		window.addEventListener('resize', async() => {
-			await dispatch('responsive/getWidthDevice')
-		})
+		window.addEventListener('resize', () => dispatch('responsive/getWidthDevice', ctx))
 
 		await dispatch('locale/clientInit')
 
