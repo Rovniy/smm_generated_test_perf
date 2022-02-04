@@ -10,7 +10,7 @@
 				<div class="banner3__paragraph">
 					{{ data.text1 }}
 				</div>
-				<LazyLandingPromoButton
+				<PromoButton
 					v-show="!isLandingMobile"
 					:data="promoButton"
 					class="banner3__promo-button" />
@@ -25,10 +25,15 @@ import {
 	mapGetters,
 } from 'vuex'
 
+import PromoButton from '~/components/Landing3/PromoButton.vue'
+
 import ScrollTo from '~/mixins/scrollTo.js'
 
 export default {
 	name: 'LandingBanner',
+	components: {
+		PromoButton,
+	},
 	mixins: [
 		ScrollTo,
 	],

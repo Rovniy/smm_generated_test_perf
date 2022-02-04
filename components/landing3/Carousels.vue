@@ -30,7 +30,7 @@
 							<template v-for="(priceKey, priceKeyCounter) in priceKeyGroup">
 								<!--eslint-disable-next-line -->
 								<ClientOnly>
-									<LandingCarouselsCard
+									<CarouselsCard
 										v-for="(service, index_3) in slider.services"
 										:key="`card-${currentDevice}-${priceKey}-${index_3}`"
 										:service="service"
@@ -53,7 +53,7 @@
 			</client-only>
 		</div>
 		<lazy-hydrate when-idle>
-			<LazyLandingOrder v-if="service && 'CLIENT_MAIN' === client" />
+			<Order v-if="service && 'CLIENT_MAIN' === client" />
 		</lazy-hydrate>
 	</article>
 </template>
@@ -72,6 +72,9 @@ import {
 	Slide,
 } from 'hooper'
 
+import CarouselsCard from '~/components/Landing3/CarouselsCard.vue'
+import Order from '~/components/Landing3/Order.vue'
+
 import notification from '~/mixins/notification.js'
 
 export default {
@@ -82,6 +85,8 @@ export default {
 		Slide,
 		Pagination,
 		Navigation,
+		CarouselsCard,
+		Order,
 	},
 	mixins: [
 		notification,

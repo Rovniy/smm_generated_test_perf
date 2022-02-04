@@ -69,7 +69,7 @@ export default {
 	],
 	components: [
 		'~/components',
-		{ path: '~/components/landing3', prefix: 'landing', prefetch: true, isAsync: true },
+		{ path: '~/components/landing3', prefix: 'landing' },
 	],
 	plugins: [
 		'~/plugins/element-ui.js',
@@ -94,6 +94,9 @@ export default {
 		'@nuxtjs/gtm',
 		'@nuxtjs/device',
 	],
+	device: {
+		refreshOnResize: true,
+	},
 	gtm: {
 		enabled: 'true' === process.env.GTM_ENABLED,
 		id: process.env.GTM_ID,

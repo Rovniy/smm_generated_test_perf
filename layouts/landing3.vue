@@ -1,11 +1,13 @@
 <template>
 	<div class="landing3">
 		<nuxt />
-		<LazyLandingFooter />
+		<Footer />
 	</div>
 </template>
 
 <script>
+import Footer from '~/components/Landing3/Footer.vue'
+
 import setUser from '~/mixins/userRole.js'
 
 import '~/assets/styles/components/_button.scss'
@@ -15,6 +17,9 @@ import '~/assets/styles/_svg-filters.scss'
 import '~/assets/styles/app.scss'
 
 export default {
+	components: {
+		Footer,
+	},
 	mixins: [
 		setUser,
 	],

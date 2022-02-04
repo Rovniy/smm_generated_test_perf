@@ -35,14 +35,14 @@
 							loading="lazy">
 					</nuxt-link>
 					<transition name="burger_animation">
-						<LazyLandingNav
+						<Nav
 							v-if="isMobileMenuOpened || !$device.isMobile"
 							class="header2-landing2__nav header3__nav"
 							@close-nav="isMobileMenuOpened = false" />
 					</transition>
 				</div>
 				<div class="header2-landing2__right header3__right">
-					<LazyLandingNavLang v-if="isLangEnabled" />
+					<NavLang v-if="isLangEnabled" />
 					<a
 						class="header3__login"
 						href="https://smmtouch.com/login"
@@ -62,8 +62,10 @@
 
 <script>
 import { mapGetters } from 'vuex'
-
 import LazyHydrate from 'vue-lazy-hydration'
+
+import Nav from '~/components/Landing3/Nav.vue'
+import NavLang from '~/components/Landing3/NavLang.vue'
 
 import ScrollTo from '~/mixins/scrollTo.js'
 
@@ -71,6 +73,8 @@ export default {
 	name: 'LandingHeader',
 	components: {
 		LazyHydrate,
+		Nav,
+		NavLang,
 	},
 	mixins: [
 		ScrollTo,

@@ -99,7 +99,7 @@
 <script>
 import ScrollTo from '~/mixins/scrollTo.js'
 
-import IconMail from '~/assets/svg/landing3/icon-mail.svg?inline'
+import IconMail from 'assets/svg/landing3/icon-mail.svg'
 
 export default {
 	name: 'LandingFooter',

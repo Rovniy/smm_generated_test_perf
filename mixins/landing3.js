@@ -2,7 +2,13 @@ import {
 	mapGetters,
 } from 'vuex'
 
-import LazyHydrate from 'vue-lazy-hydration'
+import Header from '~/components/Landing3/Header.vue'
+import Banner from '~/components/Landing3/Banner.vue'
+import Carousels from '~/components/Landing3/Carousels.vue'
+import Accordion from '~/components/Landing3/Accordion.vue'
+import Features from '~/components/Landing3/Features.vue'
+import Thanks from '~/components/Landing3/Thanks.vue'
+
 import Currency from '~/mixins/currency.js'
 
 const SERVICE_MIN_COUNT = 100
@@ -14,7 +20,12 @@ export default {
 	],
 	auth: false,
 	components: {
-		LazyHydrate,
+		Header,
+		Banner,
+		Carousels,
+		Accordion,
+		Features,
+		Thanks,
 	},
 	head() {
 		return {

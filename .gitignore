@@ -88,3 +88,6 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Static json services for landing
+static/*.json

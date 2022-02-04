@@ -1,5 +1,5 @@
 <template>
-	<LazyLandingAccordionItem
+	<LandingAccordionItem
 		:text="seo.h2"
 		class="seo3">
 		<div class="row">
@@ -36,7 +36,7 @@
 				</template>
 			</div>
 		</div>
-	</LazyLandingAccordionItem>
+	</LandingAccordionItem>
 </template>
 
 <script>

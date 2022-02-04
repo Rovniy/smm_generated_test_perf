@@ -1,5 +1,5 @@
 <template>
-	<LazyLandingSection
+	<LandingSection
 		:heading="$t('features_header')"
 		class="features3">
 		<hooper
@@ -10,11 +10,11 @@
 				v-for="(slide, index) in features"
 				:key="`fetures-slide-${index}`"
 				aria-hidden="false">
-				<LazyLandingFeaturesItem
+				<FeaturesItem
 					v-for="(item, index2) in features[index]"
 					:key="`features-item-${index2}`"
 					:item="item" />
-				<LazyLandingPromoButton
+				<PromoButton
 					:data="promoButton"
 					class="features3__promo-btn" />
 			</slide>
@@ -27,20 +27,20 @@
 						v-for="(item, index2) in features[index]"
 						:key="`fetures-item-desktop-${index}-${index2}`"
 						class="features3__column">
-						<LazyLandingFeaturesItem
+						<FeaturesItem
 							:item="item"
 							class="features3__item" />
 					</div>
 				</template>
 			</div>
-			<LazyLandingSeo
+			<Seo
 				class="features3__seo"
 				:seo="seo" />
-			<LazyLandingPromoButton
+			<PromoButton
 				:data="promoButton"
 				class="features3__promo-btn" />
 		</div>
-	</LazyLandingSection>
+	</LandingSection>
 </template>
 
 <script>
@@ -48,12 +48,21 @@ import { mapGetters } from 'vuex'
 
 import { Hooper, Slide, Pagination } from 'hooper'
 
+import LandingSection from '~/components/Landing3/LandingSection.vue'
+import PromoButton from '~/components/Landing3/PromoButton.vue'
+import Seo from '~/components/Landing3/Seo.vue'
+import FeaturesItem from '~/components/Landing3/FeaturesItem.vue'
+
 export default {
 	name: 'LandingFeatures',
 	components: {
 		Hooper,
 		Slide,
 		Pagination,
+		LandingSection,
+		PromoButton,
+		Seo,
+		FeaturesItem,
 	},
 	props: {
 		features: {

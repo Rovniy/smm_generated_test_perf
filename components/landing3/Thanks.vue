@@ -70,8 +70,8 @@
 <script>
 import Money from '~/components/_library/Money.vue'
 
-import SignIn from '~/assets/symbols/signin.svg?inline'
-import Home from '~/assets/symbols/home.svg?inline'
+import SignIn from 'assets/symbols/signin.svg'
+import Home from 'assets/symbols/home.svg'
 
 import notification from '~/mixins/notification.js'
 import Currency from '~/mixins/currency.js'

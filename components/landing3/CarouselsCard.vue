@@ -13,14 +13,14 @@
 				{{ $t(serviceTag) | capitalize }}
 			</h3>
 			<div class="carousels-card__price">
-				<LazyLandingMoney :amount="cost" />
+				<Money :amount="cost" />
 			</div>
 			<div
 				v-if="discount"
 				class="carousels-card__economy">
 				{{ $t('SERVICE_CARD_DISCOUNT_LABEL') }}
 				<span>
-					<LazyLandingMoney
+					<Money
 						:amount="discount"
 						:has-separator="false" />
 				</span>
@@ -61,10 +61,15 @@ import {
 	mapGetters,
 } from 'vuex'
 
+import Money from '~/components/Landing3/Money.vue'
+
 import textFilters from '~/mixins/textFilters.js'
 
 export default {
 	name: 'LandingCarouselsCard',
+	components: {
+		Money,
+	},
 	mixins: [
 		textFilters,
 	],

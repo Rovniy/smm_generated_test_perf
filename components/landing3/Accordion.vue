@@ -1,8 +1,8 @@
 <template>
-	<LazyLandingSection
+	<LandingSection
 		:heading="$t('header')"
 		class="accordion3">
-		<LazyLandingAccordionItem
+		<AccordionItem
 			v-for="(item, index) in data"
 			:key="`accordion-item-${index}`"
 			:text="$t(item.head)"
@@ -17,11 +17,11 @@
 					{{ replaceText(text) }}
 				</template>
 			</p>
-		</LazyLandingAccordionItem>
+		</AccordionItem>
 		<div v-if="isLandingMobile">
-			<LazyLandingSeo :seo="seo" />
+			<Seo :seo="seo" />
 		</div>
-	</LazyLandingSection>
+	</LandingSection>
 </template>
 
 <script>
@@ -29,8 +29,17 @@ import {
 	mapGetters,
 } from 'vuex'
 
+import AccordionItem from '~/components/Landing3/AccordionItem.vue'
+import Seo from '~/components/Landing3/Seo.vue'
+import LandingSection from '~/components/Landing3/LandingSection.vue'
+
 export default {
 	name: 'LandingAccordion',
+	components: {
+		AccordionItem,
+		Seo,
+		LandingSection,
+	},
 	props: {
 		seo: {
 			type: Object,
