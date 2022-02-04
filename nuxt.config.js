@@ -8,6 +8,8 @@ const BACK_URL = process.env.BACK_URL
 const FRONT_URL = process.env.FRONT_URL || BACK_URL
 const API_URL = `${BACK_URL}/api`
 
+// comment
+
 export default {
 	target: 'static',
 	modern: !isDev,
