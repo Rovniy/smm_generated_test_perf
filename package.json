@@ -73,24 +73,5 @@
 		"stylelint-config-recommended-scss": "4.3.0",
 		"stylelint-config-standard": "22.0.0",
 		"svgo": "2.3.1"
-	},
-	"browserslist": {
-		"production": [
-			"Chrome >= 60",
-			"Safari >= 10.1",
-			"iOS >= 10.3",
-			"Firefox >= 54",
-			"Edge >= 15"
-		],
-		"modern": [
-			"Chrome >= 60",
-			"Safari >= 10.1",
-			"iOS >= 10.3",
-			"Firefox >= 54",
-			"Edge >= 15"
-		],
-		"ssr": [
-			"node 14"
-		]
 	}
 }

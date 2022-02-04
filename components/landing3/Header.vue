@@ -102,7 +102,7 @@ export default {
 			isTablet: 'responsive/isTablet',
 		}),
 	},
-	update() {
+	updated() {
 		console.log('this.$device', this.$device)
 	},
 	beforeMount() {
