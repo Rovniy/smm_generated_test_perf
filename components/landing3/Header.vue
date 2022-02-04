@@ -36,7 +36,7 @@
 					</nuxt-link>
 					<transition name="burger_animation">
 						<Nav
-							v-if="isMobileMenuOpened || !$device.isMobile"
+							v-if="isMobileMenuOpened || isDesktop"
 							class="header2-landing2__nav header3__nav"
 							@close-nav="isMobileMenuOpened = false" />
 					</transition>
@@ -52,7 +52,7 @@
 			</div>
 			<transition name="burger_backdrop">
 				<div
-					v-if="isMobileMenuOpened || !$device.isMobile"
+					v-if="isMobileMenuOpened || isDesktop"
 					class="header2-landing2__backdrop"
 					@click="isMobileMenuOpened = false" />
 			</transition>
@@ -100,10 +100,8 @@ export default {
 		...mapGetters({
 			isPhone: 'responsive/isPhone',
 			isTablet: 'responsive/isTablet',
+			isDesktop: 'responsive/isDesktop',
 		}),
-	},
-	updated() {
-		console.log('this.$device', this.$device)
 	},
 	beforeMount() {
 		window.addEventListener('scroll', this.onScroll, { passive: true })
