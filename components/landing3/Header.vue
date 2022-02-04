@@ -188,6 +188,7 @@ $bg-image-banner:   var(--bg-image-banner);
 		justify-content: space-between;
 
 		@include make-container();
+		@include make-container-max-widths();
 	}
 
 	&__logo {
@@ -246,6 +247,7 @@ $bg-image-banner:   var(--bg-image-banner);
 
 	&__container {
 		@include make-container();
+		@include make-container-max-widths();
 
 		position: relative;
 		display: flex;

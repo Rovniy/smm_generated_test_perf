@@ -196,6 +196,7 @@ $column-nav-child-style: (
 
 	&__container {
 		@include make-container();
+		@include make-container-max-widths();
 
 		padding-top: 48px;
 		padding-bottom: 11px;
