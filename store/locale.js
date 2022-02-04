@@ -48,6 +48,8 @@ export const mutations = {
 export const actions = {
 	async init({ commit }) {
 		try {
+			console.log('this.$ua', this.$ua)
+
 			const response = await this.$http.region()
 			if (response.status !== 'success') {
 				throw response

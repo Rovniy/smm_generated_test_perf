@@ -58,7 +58,7 @@ export const mutations = {
 }
 
 export const actions = {
-	getWidthDevice({ commit }) {
+	getWidthDevice({ commit }, { $device }) {
 		const currentScreenWidth = document.documentElement.clientWidth
 		let currentDevice = 'smPhone'
 
@@ -85,6 +85,7 @@ export const actions = {
 		const landingWindowWidth = window.innerWidth
 		// commit('setIsLandingMobile', landingWindowWidth < 660);
 		commit('setLandingScreenWidth', landingWindowWidth)
+		commit('setIsLandingMobile', $device.isMobile)
 	},
 
 	getAgentDevice({ commit }, { $device }) {
