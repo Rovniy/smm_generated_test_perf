@@ -9,10 +9,10 @@
 							path: localePath('landing3'),
 							hash: '#__layout',
 						}">
-						<nuxt-img
-							src="svg/landing3/new-logo-ny-white.svg"
+						<img
+							src="~assets/svg/landing3/logo.svg"
 							width="123"
-							height="38" />
+							height="38">
 					</nuxt-link>
 					<div class="footer3__text">
 						{{ $t('HEADER_FOOTER_SEO_TEXT') }}
@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import IconMail from 'assets/svg/landing3/icon-mail.svg'
+import IconMail from '~/assets/svg/landing3/icon-mail.svg?inline'
 import ScrollTo from '~/mixins/scrollTo.js'
 
 export default {
