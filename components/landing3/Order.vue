@@ -145,9 +145,9 @@ import { mask } from 'vue-the-mask'
 import get from 'lodash/get'
 import debounce from 'lodash/debounce'
 
-import Money from '~/components/_library/Money.vue'
-import Popup from '~/components/_library/Popup.vue'
-import OrderSelect from '~/components/Landing3/OrderSelect.vue'
+import Money from '@/components/_library/Money.vue'
+import Popup from '@/components/_library/Popup.vue'
+import OrderSelect from '@/components/Landing3/OrderSelect.vue'
 
 import {
 	MAIN_VALIDATION,

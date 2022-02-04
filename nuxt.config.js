@@ -67,10 +67,6 @@ export default {
 		'~/assets/styles/element-ui.scss',
 		'~/assets/styles/_svg-sprite.scss',
 	],
-	components: [
-		'~/components',
-		{ path: '~/components/landing3', prefix: 'landing' },
-	],
 	plugins: [
 		'~/plugins/element-ui.js',
 		'~/plugins/vuelidate.js',

@@ -2,9 +2,9 @@ import {
 	mapGetters,
 } from 'vuex'
 
-import VkConnect from '~/components/auth/vkConnect.vue'
-import FbConnect from '~/components/auth/fbConnect.vue'
-import Modal from '~/components/auth/Modal.vue'
+import VkConnect from '@/components/auth/vkConnect.vue'
+import FbConnect from '@/components/auth/fbConnect.vue'
+import Modal from '@/components/auth/Modal.vue'
 
 import notification from '~/mixins/notification.js'
 import Currency from '@/mixins/currency.js'

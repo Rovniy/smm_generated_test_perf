@@ -1,7 +1,7 @@
 import { mapGetters } from 'vuex'
 import get from 'lodash/get'
 
-import Money from '~/components/_library/Money.vue'
+import Money from '@/components/_library/Money.vue'
 
 export default {
 	components: {

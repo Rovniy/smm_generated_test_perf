@@ -1,4 +1,4 @@
-import LangSwitch from '~/components/_library/LangSwitch.vue'
+import LangSwitch from '@/components/_library/LangSwitch.vue'
 
 export default {
 	components: {

@@ -35,7 +35,7 @@
 <script>
 import { mapGetters } from 'vuex'
 
-import TransitionExpandHeight from '~/components/_library/TransitionExpandHeight.vue'
+import TransitionExpandHeight from '@/components/_library/TransitionExpandHeight.vue'
 
 import ChevronDown from '~/assets/symbols/chevron-down.svg?inline'
 

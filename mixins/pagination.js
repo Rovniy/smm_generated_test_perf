@@ -1,4 +1,4 @@
-import Pagination from '~/components/_library/Pagination.vue'
+import Pagination from '@/components/_library/Pagination.vue'
 
 export default {
 	components: {

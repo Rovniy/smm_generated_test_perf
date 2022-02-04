@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import Money from '~/components/_library/Money.vue'
+import Money from '@/components/_library/Money.vue'
 
 import SignIn from 'assets/symbols/signin.svg'
 import Home from 'assets/symbols/home.svg'

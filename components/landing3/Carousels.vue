@@ -72,8 +72,8 @@ import {
 	Slide,
 } from 'hooper'
 
-import CarouselsCard from '~/components/Landing3/CarouselsCard.vue'
-import Order from '~/components/Landing3/Order.vue'
+import CarouselsCard from '@/components/Landing3/CarouselsCard.vue'
+import Order from '@/components/Landing3/Order.vue'
 
 import notification from '~/mixins/notification.js'
 

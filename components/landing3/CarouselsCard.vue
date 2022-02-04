@@ -61,7 +61,7 @@ import {
 	mapGetters,
 } from 'vuex'
 
-import Money from '~/components/Landing3/Money.vue'
+import Money from '@/components/Landing3/Money.vue'
 
 import textFilters from '~/mixins/textFilters.js'
 

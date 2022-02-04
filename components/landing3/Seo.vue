@@ -1,5 +1,5 @@
 <template>
-	<LandingAccordionItem
+	<AccordionItem
 		:text="seo.h2"
 		class="seo3">
 		<div class="row">
@@ -36,13 +36,17 @@
 				</template>
 			</div>
 		</div>
-	</LandingAccordionItem>
+	</AccordionItem>
 </template>
 
 <script>
+import AccordionItem from '@/components/Landing3/AccordionItem.vue'
 
 export default {
 	name: 'LandingSeo',
+	components: {
+		AccordionItem,
+	},
 	props: {
 		seo: {
 			type: Object,
