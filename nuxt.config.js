@@ -1,7 +1,7 @@
 import path from 'path'
 import ImageminPlugin from 'imagemin-webpack-plugin'
 import ImageminMozjpeg from 'imagemin-mozjpeg'
-import { isDev, isProduction } from './const'
+import { isDev, isProduction } from './const/index.js'
 import { COUNTS, CURRENCIES } from './store/services.js'
 
 const BACK_URL = process.env.BACK_URL
