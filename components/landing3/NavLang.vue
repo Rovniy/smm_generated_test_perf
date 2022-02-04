@@ -11,22 +11,22 @@
 				{{ $i18n.locale }}
 			</span>
 		</div>
-		<nav v-show="isOpened">
-			<ul class="nav-lang3__holder">
-				<li
-					v-for="(locale, index) in sortedLocales"
-					:key="`nav-lang-item-${index}`"
-					class="nav-lang3__item">
-					<nuxt-link
-						:to="switchLocalePath(locale.code)"
-						class="nav-lang3__link nav-lang3__flag"
-						:class="`nav-lang3__flag--${locale.code}`"
-						@click.stop.native="isOpened = false">
-						{{ locale.name }}
-					</nuxt-link>
-				</li>
-			</ul>
-		</nav>
+		<ul
+			v-show="isOpened"
+			class="nav-lang3__holder">
+			<li
+				v-for="(locale, index) in sortedLocales"
+				:key="`nav-lang-item-${index}`"
+				class="nav-lang3__item">
+				<nuxt-link
+					:to="switchLocalePath(locale.code)"
+					class="nav-lang3__link nav-lang3__flag"
+					:class="`nav-lang3__flag--${locale.code}`"
+					@click.stop.native="isOpened = false">
+					{{ locale.name }}
+				</nuxt-link>
+			</li>
+		</ul>
 	</div>
 </template>
 
@@ -36,17 +36,16 @@ import {
 } from 'vuex'
 
 export default {
-	name: 'LandingNavLang',
 	data() {
 		return {
 			isOpened: false,
 		}
 	},
 	computed: {
-		...mapGetters({
-			isLandingMobile: 'responsive/isLandingMobile',
-			landingScreenWidth: 'responsive/landingScreenWidth',
-		}),
+		...mapGetters('responsive', [
+			'isLandingMobile',
+			'landingScreenWidth',
+		]),
 		sortedLocales() {
 			const sortedList = []
 			const sortMap = [ 'ru', 'en', 'de', 'es', 'pt', 'it', 'tr' ]

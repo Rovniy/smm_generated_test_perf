@@ -16,7 +16,6 @@ import Currency from '~/mixins/currency.js'
 import textFilters from '~/mixins/textFilters.js'
 
 export default {
-	name: 'LandingMoney',
 	mixins: [
 		Currency,
 		textFilters,

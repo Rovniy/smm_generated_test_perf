@@ -18,7 +18,6 @@
 
 <script>
 export default {
-	name: 'LandingAccordionItem',
 	props: {
 		text: {
 			type: String,

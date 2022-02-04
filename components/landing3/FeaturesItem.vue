@@ -3,6 +3,13 @@
 		class="features3-item"
 		:class="{ 'features3-item--desktop': !isLandingMobile }">
 		<div class="features3-item__holder-icon">
+			<!-- <nuxt-img
+        class="features3-item__icon"
+        :src="`svg/landing3/${iconName}`"
+        :width="item.iconW"
+        :height="item.iconH"
+        loading="lazy"
+      /> -->
 			<div
 				class="features3-item__icon"
 				:class="`features3-item__icon--${item.icon}`" />
@@ -24,7 +31,6 @@ import {
 import textFilters from '~/mixins/textFilters.js'
 
 export default {
-	name: 'LandingFeaturesItem',
 	mixins: [
 		textFilters,
 	],
@@ -37,9 +43,9 @@ export default {
 		},
 	},
 	computed: {
-		...mapGetters({
-			isLandingMobile: 'responsive/isLandingMobile',
-		}),
+		...mapGetters('responsive', [
+			'isLandingMobile',
+		]),
 		iconName() {
 			return this.isLandingMobile
 				? `${this.item.icon}-xs.svg`

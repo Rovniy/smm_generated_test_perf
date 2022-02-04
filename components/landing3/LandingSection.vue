@@ -1,17 +1,16 @@
 <template>
-	<article class="landing3-section">
+	<div class="landing3-section">
 		<div class="container">
 			<h2 class="landing3__heading">
 				{{ heading }}
 			</h2>
 			<slot />
 		</div>
-	</article>
+	</div>
 </template>
 
 <script>
 export default {
-	name: 'LandingSection',
 	props: {
 		heading: {
 			type: String,

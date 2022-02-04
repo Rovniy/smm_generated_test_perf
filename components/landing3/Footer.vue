@@ -1,5 +1,5 @@
 <template>
-	<footer class="footer3">
+	<div class="footer3">
 		<div class="footer3__container">
 			<div class="row">
 				<div class="footer3__column-text footer3__column-offset">
@@ -9,12 +9,10 @@
 							path: localePath('landing3'),
 							hash: '#__layout',
 						}">
-						<img
-							src="~assets/images/logo/logo_white.svg"
+						<nuxt-img
+							src="svg/landing3/new-logo-ny-white.svg"
 							width="123"
-							height="38"
-							alt="logo"
-							loading="lazy">
+							height="38" />
 					</nuxt-link>
 					<div class="footer3__text">
 						{{ $t('HEADER_FOOTER_SEO_TEXT') }}
@@ -36,7 +34,7 @@
 								<a
 									v-if="item.externalUrl"
 									class="footer3__link footer3__nav-item"
-									:rel="item.noopener"
+									:rel="item.nofollow"
 									:target="item.target"
 									:href="item.externalUrl">
 									{{ $t(item.title) }}
@@ -61,7 +59,6 @@
 							<a
 								:href="`mailto:${email}`"
 								target="_blank"
-								rel="noopener"
 								class="footer3__link footer3__link--mail">
 								<icon-mail class="footer3__icon-mail" />
 								{{ email }}
@@ -76,9 +73,7 @@
 									<a
 										:href="item.link"
 										target="_blank"
-										rel="noopener"
 										class="footer3__social-media-link">
-										{{ item.icon }}
 										<svg-icon
 											:name="item.icon"
 											class="footer3__social-media-icon" />
@@ -93,7 +88,7 @@
 		<div class="footer3__copyrights">
 			&copy; 2017 - {{ new Date().getFullYear() }} {{ $t('nav_copy') }}
 		</div>
-	</footer>
+	</div>
 </template>
 
 <script>
@@ -102,7 +97,6 @@ import ScrollTo from '~/mixins/scrollTo.js'
 import IconMail from 'assets/svg/landing3/icon-mail.svg'
 
 export default {
-	name: 'LandingFooter',
 	components: {
 		IconMail,
 	},
@@ -129,22 +123,20 @@ export default {
 				},
 			}, {
 				title: 'nav_blog',
-				externalUrl: 'https://smmtouch.com/blog?page=1',
-				noopener: 'noopener',
-				target: '_blank',
+				to: '/blog',
+				available_lang: [ 'ru' ],
 			}, {
 				title: 'nav_reviews',
 				externalUrl: 'https://otzyvmarketing.ru/smmtouch/',
-				noopener: 'noopener',
+				nofollow: 'nofollow',
 				target: '_blank',
 			}]
 		},
 		sourceLinkList2() {
 			return [{
 				title: 'nav_login',
-				externalUrl: 'https://smmtouch.com/login',
-				noopener: 'noopener',
-				target: '_blank',
+				to: 'login',
+				translatePath: true,
 			}, {
 				title: 'nav_oferta',
 				externalUrl: 'it' === this.$i18n.locale
@@ -178,7 +170,7 @@ export default {
 
 $color-hover: $white;
 $color-bg: #222;
-$color-text: #afb2ba;
+$color-text: #7A7D84;
 
 // breakpoint-name: (css-property, value);
 $column-nav-child-style: (
@@ -196,7 +188,6 @@ $column-nav-child-style: (
 	line-height: calc_rem(23px);
 
 	&__text {
-		color: $color-text;
 		margin-top: 10px;
 		@include media-breakpoint-up(md) {
 			margin-top: 13px;
@@ -259,7 +250,6 @@ $column-nav-child-style: (
 	}
 
 	&__column-contacts {
-		color: $color-text;
 		@include media-up(md) {
 			flex-basis: (100%/3);
 		}
@@ -286,7 +276,6 @@ $column-nav-child-style: (
 	}
 
 	&__list-item {
-		color: $color-text;
 		text-transform: uppercase;
 		margin-bottom: 3px;
 		@include media-breakpoint-up(lg) {
@@ -363,8 +352,6 @@ $column-nav-child-style: (
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		line-height: 0; // l-h и f-z равны 0 для того, чтобы текст внутри тега a не было видно (аудит Lighthouse)
-		font-size: 0;
 
 		&:hover {
 			background: $color-hover;

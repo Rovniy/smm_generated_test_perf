@@ -1,68 +1,57 @@
 <template>
-	<nav>
-		<ul class="nav3">
-			<li class="nav3__item--mobile-only">
-				<span class="nav3__link" @click.stop.prevent="$emit('close-nav');">
-					<icon-menu-arrow class="nav3__icon" />
-					{{ $t('nav_menu') }}
-				</span>
-			</li>
-			<li
-				v-for="(item, index) in linksList"
-				:key="index"
-				class="nav3__item"
-				@mouseover="(!isLandingMobile && landingScreenWidth >= 992)&& showNav(index)"
-				@mouseleave="(!isLandingMobile && landingScreenWidth >= 992) && hideNav()"
-				@click.stop.prevent="(isLandingMobile || landingScreenWidth < 992) && toggleNav(index)">
-				<a
-					v-if="isLandingMobile || landingScreenWidth < 992"
-					:class="{'nav3__link--opened': activeLink === index }"
-					href="#"
-					rel="noopener"
-					class="nav3__link">
-					<svg-icon
-						:name="index"
-						class="nav3__icon"
-						:class="`svg-sprite--${index}`" />
-					{{ $t(`nav_${index}`) }}
-				</a>
-				<nuxt-link
-					v-else
-					:class="{'nav3__link--opened': activeLink === index }"
-					:to="localePath(getNetworkMainPath(index))"
-					class="nav3__link">
-					<svg-icon
-						:name="index"
-						class="nav3__icon"
-						:class="`svg-sprite--${index}`" />
-					{{ $t(`nav_${index}`) }}
-				</nuxt-link>
-				<ul
-					v-show="activeLink === index"
-					class="nav3__panel">
-					<li
-						v-for="(item2, index2) in item.links"
-						:key="`links-${index}-${index2}`"
-						class="nav3__item">
-						<nuxt-link
-							class="nav3__link nav3__link--level2"
-							:to="localePath(item2)"
-							@click.stop.prevent.native="closeNav(index)">
-							{{ $t(`nav_${index2}`) }}
-						</nuxt-link>
-					</li>
-				</ul>
-			</li>
-			<li class="nav3__item--mobile-only">
+	<ul class="nav3">
+		<li class="nav3__item--mobile-only">
+			<a
+				class="nav3__link"
+				@click.stop.prevent="$emit('close-nav');">
+				<icon-menu-arrow class="nav3__icon" />
+				{{ $t('nav_menu') }}
+			</a>
+		</li>
+		<li
+			v-for="(item, index) in linksList"
+			:key="index"
+			class="nav3__item"
+			@mouseover="(!isLandingMobile && landingScreenWidth >= 992)&& showNav(index)"
+			@mouseleave="(!isLandingMobile && landingScreenWidth >= 992) && hideNav()"
+			@click.stop.prevent="(isLandingMobile || landingScreenWidth < 992) && toggleNav(index)">
+			<a
+				:class="{'nav3__link--opened': activeLink === index }"
+				class="nav3__link">
+				<svg-icon
+					:name="index"
+					class="nav3__icon"
+					:class="`svg-sprite--${index}`" />
+				{{ $t(`nav_${index}`) }}
+			</a>
+			<ul
+				v-show="activeLink === index"
+				class="nav3__panel">
+				<li
+					v-for="(item2, index2) in item.links"
+					:key="`links-${index}-${index2}`"
+					class="nav3__item">
+					<nuxt-link
+						class="
+              nav3__link
+              nav3__link--level2
+            "
+						:to="localePath(item2)"
+						@click.stop.prevent.native="closeNav(index)">
+						{{ $t(`nav_${index2}`) }}
+					</nuxt-link>
+				</li>
+			</ul>
+		</li>
+		<li class="nav3__item--mobile-only">
+			<nuxt-link
+				:to="localePath('/login')"
+				class="nav3__link">
 				<icon-menu-login class="nav3__icon" />
-				<a
-					class="nav3__link__login"
-					href="https://smmtouch.com/login"
-					rel="noopener"
-					target="_blank">{{ $t('nav_login') }}</a>
-			</li>
-		</ul>
-	</nav>
+				{{ $t('nav_login') }}
+			</nuxt-link>
+		</li>
+	</ul>
 </template>
 
 <script>
@@ -74,7 +63,6 @@ import IconMenuArrow from '~/assets/svg/landing3/icon-menu-arrow.svg?inline'
 import IconMenuLogin from '~/assets/svg/landing3/icon-menu-login.svg?inline'
 
 export default {
-	name: 'LandingNav',
 	components: {
 		IconMenuArrow,
 		IconMenuLogin,
@@ -133,10 +121,10 @@ export default {
 		}
 	},
 	computed: {
-		...mapGetters({
-			isLandingMobile: 'responsive/isLandingMobile',
-			landingScreenWidth: 'responsive/landingScreenWidth',
-		}),
+		...mapGetters('responsive', [
+			'isLandingMobile',
+			'landingScreenWidth',
+		]),
 	},
 	methods: {
 		showNav(index) {
@@ -153,12 +141,9 @@ export default {
 				this.showNav(index)
 			}
 		},
-		closeNav() {
+		closeNav(index) {
 			this.hideNav()
 			this.$emit('close-nav')
-		},
-		getNetworkMainPath(network) {
-			return this.linksList[network].links.main
 		},
 	},
 }
@@ -184,8 +169,6 @@ $nav-link-padding-x: 21px;
 	}
 
 	&__item--mobile-only {
-		display: flex;
-		margin: 20px 0;
 		@include media-breakpoint-up(lg) {
 			display: none;
 		}
@@ -197,13 +180,6 @@ $nav-link-padding-x: 21px;
 		padding: 20px 0;
 		font-size: calc_rem(15px);
 		user-select: none;
-
-		&__login {
-			display: flex;
-			align-items: center;
-			font-size: calc_rem(15px);
-			user-select: none;
-		}
 
 		&:not(:only-child) {
 			&::after {

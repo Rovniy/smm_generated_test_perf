@@ -37,7 +37,6 @@
 import ClickOutside from 'vue-click-outside'
 
 export default {
-	name: 'LandingOrderSelect',
 	directives: {
 		ClickOutside,
 	},
@@ -110,7 +109,7 @@ $color-primary: var(--color-primary, $primary);
 			width: 11px;
 			height: 7px;
 			transform: translateY(-50%);
-			background-image: url('~assets/svg/order/chevron-select.svg');
+			background-image: url('~assets/svg/order/chevron-select.svg?data');
 		}
 
 		&:hover {

@@ -14,7 +14,6 @@
 import ScrollTo from '~/mixins/scrollTo.js'
 
 export default {
-	name: 'LandingPromoButton',
 	mixins: [
 		ScrollTo,
 	],
@@ -67,8 +66,7 @@ $button-style: (
 	justify-content: center;
 	align-items: center;
 	background: $white;
-
-	color: #2674bd;
+	color: $color-primary;
 	white-space: nowrap;
 	border-radius: 250px;
 	box-shadow: 0 7px 10px rgba(0, 0, 0, .1);

@@ -6,7 +6,7 @@
 		<div class="popup">
 			<img
 				class="tyimg"
-				src="/static/img/123.png"
+				src="/img/123.png"
 				alt="background image">
 			<button
 				class="close"
@@ -80,7 +80,6 @@ import gtmEvent from '~/mixins/gtmEvent.js'
 const PAYMENT_SUCCEEDED = 'payment.succeeded'
 
 export default {
-	name: 'LandingThanks',
 	components: {
 		Money,
 		SignIn,
