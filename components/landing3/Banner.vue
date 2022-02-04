@@ -132,8 +132,6 @@ $paragraph-text: (
 		@include make-container();
 
 		@include media-breakpoint-up(md) {
-			@include make-container-max-widths();
-
 			flex-direction: row;
 			align-items: flex-start;
 			text-align: left;

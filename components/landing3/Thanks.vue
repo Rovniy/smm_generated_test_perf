@@ -121,7 +121,7 @@ export default {
 		},
 		toCP() {
 			this.hide()
-			this.$router.push(this.localePath('/login'))
+			window.location.href = 'https://smmtouch.com/login'
 		},
 		getPaymentId() {
 			if ('undefined' === typeof localStorage) {

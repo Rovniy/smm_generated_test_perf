@@ -122,7 +122,7 @@ export default {
 				},
 			}, {
 				title: 'nav_blog',
-				to: '/blog',
+				externalUrl: 'https://smmtouch.com/blog',
 				available_lang: [ 'ru' ],
 			}, {
 				title: 'nav_reviews',
@@ -149,9 +149,7 @@ export default {
 			}]
 		},
 		linksList() {
-			return '/blog' === this.$route.path
-				? [ this.sourceLinkList1.filter(item => item.title !== 'nav_faq'), this.sourceLinkList2 ]
-				: [ this.sourceLinkList1, this.sourceLinkList2 ]
+			return [ this.sourceLinkList1, this.sourceLinkList2 ]
 		},
 	},
 	methods: {
@@ -198,7 +196,6 @@ $column-nav-child-style: (
 
 	&__container {
 		@include make-container();
-		@include make-container-max-widths();
 
 		padding-top: 48px;
 		padding-bottom: 11px;

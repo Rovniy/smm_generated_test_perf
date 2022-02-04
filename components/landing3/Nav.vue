@@ -44,12 +44,14 @@
 			</ul>
 		</li>
 		<li class="nav3__item--mobile-only">
-			<nuxt-link
-				:to="localePath('/login')"
-				class="nav3__link">
+			<a
+				class="nav3__link"
+				href="https://smmtouch.com/login"
+				rel="noopener"
+				target="_blank">
 				<icon-menu-login class="nav3__icon" />
 				{{ $t('nav_login') }}
-			</nuxt-link>
+			</a>
 		</li>
 	</ul>
 </template>
