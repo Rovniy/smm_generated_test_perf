@@ -1,68 +1,65 @@
 <template>
-	<lazy-hydrate when-idle>
-		<header
-			class="header2-landing2 header3"
-			:class="{
-				'is-fixed': isFixed,
-				'is-mobile-menu-opened': isMobileMenuOpened,
-			}">
-			<div class="header2-landing2__container1 header3__container">
-				<div class="header2-landing2__left">
-					<button
-						class="header2-landing2__burger"
-						aria-label="burger"
-						@click="isMobileMenuOpened = !isMobileMenuOpened">
-						<span class="header2-landing2__burger-box">
-							<span class="header2-landing2__burger-inner" />
-						</span>
-					</button>
-					<nuxt-link class="header3__logo-link" :to="{ path: localePath('index'),query: $route.query }">
-						<img
-							v-show="isFixed"
-							class="header3__logo"
-							width="103"
-							height="33"
-							src="~/assets/images/logo/logo_blue.svg"
-							alt="Logo"
-							loading="lazy">
-						<img
-							v-show="!isFixed"
-							class="header3__logo"
-							width="103"
-							height="33"
-							src="~/assets/images/logo/logo_white.svg"
-							alt="Logo"
-							loading="lazy">
-					</nuxt-link>
-					<transition name="burger_animation">
-						<Nav
-							v-if="isMobileMenuOpened || isDesktop"
-							class="header2-landing2__nav header3__nav"
-							@close-nav="isMobileMenuOpened = false" />
-					</transition>
-				</div>
-				<div class="header2-landing2__right header3__right">
-					<NavLang v-if="isLangEnabled" />
-					<a
-						class="header3__login"
-						href="https://smmtouch.com/login"
-						rel="noopener"
-						target="_blank">{{ $t('nav_login') }}</a>
-				</div>
+	<header
+		class="header2-landing2 header3"
+		:class="{
+			'is-fixed': isFixed,
+			'is-mobile-menu-opened': isMobileMenuOpened,
+		}">
+		<div class="header2-landing2__container1 header3__container">
+			<div class="header2-landing2__left">
+				<button
+					class="header2-landing2__burger"
+					aria-label="burger"
+					@click="isMobileMenuOpened = !isMobileMenuOpened">
+					<span class="header2-landing2__burger-box">
+						<span class="header2-landing2__burger-inner" />
+					</span>
+				</button>
+				<nuxt-link class="header3__logo-link" :to="{ path: localePath('index'),query: $route.query }">
+					<img
+						v-show="isFixed"
+						class="header3__logo"
+						width="103"
+						height="33"
+						src="~/assets/images/logo/logo_blue.svg"
+						alt="Logo"
+						loading="lazy">
+					<img
+						v-show="!isFixed"
+						class="header3__logo"
+						width="103"
+						height="33"
+						src="~/assets/images/logo/logo_white.svg"
+						alt="Logo"
+						loading="lazy">
+				</nuxt-link>
+				<transition name="burger_animation">
+					<Nav
+						v-show="isMobileMenuOpened || !isPhone"
+						class="header2-landing2__nav header3__nav"
+						@close-nav="isMobileMenuOpened = false" />
+				</transition>
 			</div>
-			<transition name="burger_backdrop">
-				<div
-					v-if="isMobileMenuOpened || isDesktop"
-					class="header2-landing2__backdrop"
-					@click="isMobileMenuOpened = false" />
-			</transition>
-		</header>
-	</lazy-hydrate>
+			<div class="header2-landing2__right header3__right">
+				<NavLang v-if="isLangEnabled" />
+				<a
+					class="header3__login"
+					href="https://smmtouch.com/login"
+					rel="noopener"
+					target="_blank">{{ $t('nav_login') }}</a>
+			</div>
+		</div>
+		<transition name="burger_backdrop">
+			<div
+				v-show="isMobileMenuOpened || !isPhone"
+				class="header2-landing2__backdrop"
+				@click="isMobileMenuOpened = false" />
+		</transition>
+	</header>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
-import LazyHydrate from 'vue-lazy-hydration'
 
 import Nav from '@/components/landing3/Nav.vue'
 import NavLang from '@/components/landing3/NavLang.vue'
@@ -72,7 +69,6 @@ import ScrollTo from '~/mixins/scrollTo.js'
 export default {
 	name: 'LandingHeader',
 	components: {
-		LazyHydrate,
 		Nav,
 		NavLang,
 	},
@@ -93,7 +89,6 @@ export default {
 		return {
 			isFixed: false,
 			isMobileMenuOpened: false,
-			asd: false,
 		}
 	},
 	computed: {

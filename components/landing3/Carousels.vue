@@ -52,9 +52,7 @@
 				</div>
 			</client-only>
 		</div>
-		<lazy-hydrate when-idle>
-			<Order v-if="service && 'CLIENT_MAIN' === client" />
-		</lazy-hydrate>
+		<Order v-if="service && 'CLIENT_MAIN' === client" />
 	</article>
 </template>
 
@@ -64,7 +62,6 @@ import {
 	mapActions,
 } from 'vuex'
 
-import LazyHydrate from 'vue-lazy-hydration'
 import {
 	Hooper,
 	Pagination,
@@ -80,7 +77,6 @@ import notification from '~/mixins/notification.js'
 export default {
 	name: 'LandingCarousels',
 	components: {
-		LazyHydrate,
 		Hooper,
 		Slide,
 		Pagination,
