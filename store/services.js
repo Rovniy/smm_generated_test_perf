@@ -234,7 +234,7 @@ export const actions = {
 	async netServices({ state, getters, commit }, { client = 'CLIENT_MAIN', platform = 'INSTAGRAM', prefetchedData = null } = {}) {
 		let response
 
-		if (prefetchedData) {
+		if (null === prefetchedData) {
 			if (getters.stateHit(state, 'services', client, platform)) {
 				return
 			}
@@ -272,7 +272,7 @@ export const actions = {
 		const IS_MAIN = 'CLIENT_MAIN' === client
 		const counts = IS_MAIN ? getters.counts : [ 100 ]
 
-		if (!prefetchedCosts) {
+		if (null === prefetchedCosts) {
 			if (getters.stateHit(state.costs, getters.localeCurrency, client, platform)) {
 				return
 			}

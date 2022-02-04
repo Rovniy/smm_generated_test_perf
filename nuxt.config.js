@@ -9,7 +9,6 @@ const FRONT_URL = process.env.FRONT_URL || BACK_URL
 const API_URL = `${BACK_URL}/api`
 
 export default {
-	ssr: true,
 	target: 'static',
 	modern: !isDev,
 	parallel: true,
