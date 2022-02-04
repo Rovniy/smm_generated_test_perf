@@ -102,6 +102,9 @@ export default {
 			isTablet: 'responsive/isTablet',
 		}),
 	},
+	update() {
+		console.log('this.$device', this.$device)
+	},
 	beforeMount() {
 		window.addEventListener('scroll', this.onScroll, { passive: true })
 		this.onScroll()
