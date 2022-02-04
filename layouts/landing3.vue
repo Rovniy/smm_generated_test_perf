@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import Footer from '@/components/Landing3/Footer.vue'
+import Footer from '@/components/landing3/Footer.vue'
 
 import setUser from '~/mixins/userRole.js'
 

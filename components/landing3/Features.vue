@@ -48,10 +48,10 @@ import { mapGetters } from 'vuex'
 
 import { Hooper, Slide, Pagination } from 'hooper'
 
-import LandingSection from '@/components/Landing3/LandingSection.vue'
-import PromoButton from '@/components/Landing3/PromoButton.vue'
-import Seo from '@/components/Landing3/Seo.vue'
-import FeaturesItem from '@/components/Landing3/FeaturesItem.vue'
+import LandingSection from '@/components/landing3/LandingSection.vue'
+import PromoButton from '@/components/landing3/PromoButton.vue'
+import Seo from '@/components/landing3/Seo.vue'
+import FeaturesItem from '@/components/landing3/FeaturesItem.vue'
 
 export default {
 	name: 'LandingFeatures',

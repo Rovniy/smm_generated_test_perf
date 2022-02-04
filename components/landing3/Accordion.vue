@@ -29,9 +29,9 @@ import {
 	mapGetters,
 } from 'vuex'
 
-import AccordionItem from '@/components/Landing3/AccordionItem.vue'
-import Seo from '@/components/Landing3/Seo.vue'
-import LandingSection from '@/components/Landing3/LandingSection.vue'
+import AccordionItem from '@/components/landing3/AccordionItem.vue'
+import Seo from '@/components/landing3/Seo.vue'
+import LandingSection from '@/components/landing3/LandingSection.vue'
 
 export default {
 	name: 'LandingAccordion',

@@ -147,7 +147,7 @@ import debounce from 'lodash/debounce'
 
 import Money from '@/components/_library/Money.vue'
 import Popup from '@/components/_library/Popup.vue'
-import OrderSelect from '@/components/Landing3/OrderSelect.vue'
+import OrderSelect from '@/components/landing3/OrderSelect.vue'
 
 import {
 	MAIN_VALIDATION,

@@ -2,12 +2,12 @@ import {
 	mapGetters,
 } from 'vuex'
 
-import Header from '@/components/Landing3/Header.vue'
-import Banner from '@/components/Landing3/Banner.vue'
-import Carousels from '@/components/Landing3/Carousels.vue'
-import Accordion from '@/components/Landing3/Accordion.vue'
-import Features from '@/components/Landing3/Features.vue'
-import Thanks from '@/components/Landing3/Thanks.vue'
+import Header from '@/components/landing3/Header.vue'
+import Banner from '@/components/landing3/Banner.vue'
+import Carousels from '@/components/landing3/Carousels.vue'
+import Accordion from '@/components/landing3/Accordion.vue'
+import Features from '@/components/landing3/Features.vue'
+import Thanks from '@/components/landing3/Thanks.vue'
 
 import Currency from '~/mixins/currency.js'
 

@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import AccordionItem from '@/components/Landing3/AccordionItem.vue'
+import AccordionItem from '@/components/landing3/AccordionItem.vue'
 
 export default {
 	name: 'LandingSeo',

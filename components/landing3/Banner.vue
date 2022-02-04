@@ -25,7 +25,7 @@ import {
 	mapGetters,
 } from 'vuex'
 
-import PromoButton from '@/components/Landing3/PromoButton.vue'
+import PromoButton from '@/components/landing3/PromoButton.vue'
 
 import ScrollTo from '~/mixins/scrollTo.js'
 

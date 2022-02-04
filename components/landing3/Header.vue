@@ -64,8 +64,8 @@
 import { mapGetters } from 'vuex'
 import LazyHydrate from 'vue-lazy-hydration'
 
-import Nav from '@/components/Landing3/Nav.vue'
-import NavLang from '@/components/Landing3/NavLang.vue'
+import Nav from '@/components/landing3/Nav.vue'
+import NavLang from '@/components/landing3/NavLang.vue'
 
 import ScrollTo from '~/mixins/scrollTo.js'
 
