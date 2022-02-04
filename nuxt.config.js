@@ -1,6 +1,6 @@
 import path from 'path'
-import ImageminPlugin from 'imagemin-webpack-plugin'
-import ImageminMozjpeg from 'imagemin-mozjpeg'
+import fs from 'fs'
+import axios from 'axios'
 import { isDev, isProduction } from './const/index.js'
 import { COUNTS, CURRENCIES } from './store/services.js'
 
@@ -396,28 +396,6 @@ export default {
 					useShortDoctype: true,
 				},
 			},
-			plugins: [
-				new ImageminPlugin({
-					pngquant: {
-						quality: '5-30',
-						speed: 7,
-						strip: true,
-					},
-					jpegtran: {
-						progressive: true,
-					},
-					gifsicle: {
-						interlaced: true,
-					},
-					svgo: null,
-					plugins: [
-						ImageminMozjpeg({
-							quality: 90,
-							progressive: true,
-						}),
-					],
-				}),
-			],
 		}),
 		splitChunks: {
 			layouts: true,
