@@ -92,9 +92,8 @@
 </template>
 
 <script>
-import ScrollTo from '~/mixins/scrollTo.js'
-
 import IconMail from 'assets/svg/landing3/icon-mail.svg'
+import ScrollTo from '~/mixins/scrollTo.js'
 
 export default {
 	components: {
