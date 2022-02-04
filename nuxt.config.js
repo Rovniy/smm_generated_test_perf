@@ -331,38 +331,32 @@ export default {
 			})
 		},
 		'generate:before': async generator => {
-			try {
-				const { data: { data: services } } = await axios.get(`${generator.options.axios.baseURL}/user_services/tiny`, {
-					params: {
-						labels: 'CLIENT_MAIN VISIBLE',
-						platform: 'INSTAGRAM',
-					},
-				})
-				await new Promise(resolve => fs.writeFile('./static/instagram_services.json', JSON.stringify(services), 'utf8', resolve))
+			const { data: { data: services } } = await axios.get(`${generator.options.axios.baseURL}/user_services/tiny`, {
+				params: {
+					labels: 'CLIENT_MAIN VISIBLE',
+					platform: 'INSTAGRAM',
+				},
+			})
+			await new Promise(resolve => fs.writeFile('./static/instagram_services.json', JSON.stringify(services), 'utf8', resolve))
 
-				for (const currency of CURRENCIES) {
-					await new Promise((resolve, reject) => {
-						axios.get(`${generator.options.axios.baseURL}/prices/tiny`, {
-							params: {
-								cur: currency,
-								labels: 'CLIENT_MAIN VISIBLE',
-								platform: 'INSTAGRAM',
-								counts: COUNTS,
-							},
-						}).then(({ data: { data: cost } }) => {
-							if (cost) {
-								fs.writeFile(`./static/instagram_costs_${currency}.json`, JSON.stringify(cost), 'utf8', resolve)
-							}
-							else {
-								resolve()
-							}
-						}).catch(reject)
-					})
-				}
-			}
-			catch (e) {
-				// eslint-disable-next-line no-console
-				console.error('NUXT : HOOK : generate:before', e)
+			for (const currency of CURRENCIES) {
+				await new Promise((resolve, reject) => {
+					axios.get(`${generator.options.axios.baseURL}/prices/tiny`, {
+						params: {
+							cur: currency,
+							labels: 'CLIENT_MAIN VISIBLE',
+							platform: 'INSTAGRAM',
+							counts: COUNTS,
+						},
+					}).then(({ data: { data: cost } }) => {
+						if (cost) {
+							fs.writeFile(`./static/instagram_costs_${currency}.json`, JSON.stringify(cost), 'utf8', () => resolve())
+						}
+						else {
+							resolve()
+						}
+					}).catch(reject)
+				})
 			}
 		},
 	},
