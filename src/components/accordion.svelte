@@ -24,10 +24,9 @@
 	@import '../style/common.sass'
 
 	.accordion
-		max-width: $container_width
+		width: 100%
 
 		.info
-			width: $container_width
 			position: relative
 			min-height: 50px
 			display: flex

@@ -1,5 +1,5 @@
 <button class="button">
-	<img src="/img/svg/seo_instagram.svg" alt="network">
+	<img src="/img/svg/seo_instagram.svg" alt="network" width="25" height="25">
 	<span>Купить</span>
 </button>
 

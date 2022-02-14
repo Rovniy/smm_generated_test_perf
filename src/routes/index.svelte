@@ -36,19 +36,15 @@
 
 <section class="fourth">
 	<div class="container with_padding">
-		<div class="fourth_container">
-			<h1>Часто задаваемые вопросы</h1>
-			<Accordion/>
-		</div>
+		<h1>Часто задаваемые вопросы</h1>
+		<Accordion/>
 	</div>
 </section>
 
 <section class="fifth">
 	<div class="container with_padding">
-		<div class="fifth_container">
-			<h1>Наши преимущества</h1>
-			<Seo/>
-		</div>
+		<h1>Наши преимущества</h1>
+		<Seo/>
 	</div>
 </section>
 
@@ -99,7 +95,7 @@
 	display: flex
 
 .third
-	background-image: url("../assets/svg/main.svg")
+	background-image: url("/img/svg/main.svg")
 	background-size: cover
 	background-repeat: no-repeat
 
