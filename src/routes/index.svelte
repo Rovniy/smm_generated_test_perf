@@ -21,13 +21,19 @@
 <section class="second">
 	<div class="container">
 		<h1>Накрутка Инстаграм</h1>
+
+		<!--  Carousel	-->
 		<Slider />
 	</div>
 </section>
 
+
 <section class="third">
 	<div class="container">
+		<h1>Накрутка Инстаграм</h1>
+
 		<!--  Carousel	-->
+		<Slider />
 	</div>
 </section>
 
@@ -62,11 +68,6 @@
 
 <style lang="sass">
 	@import '../style/common.sass'
-
-	.container
-		max-width: $container_width
-		margin: 0 auto
-		display: flex
 
 	.first
 		width: 100%
@@ -123,12 +124,5 @@
 		color: #fff
 
 		&_container
-			display: flex
-			flex-direction: column
-			align-items: center
 			padding: 100px 0 60px 0
-
-			h1
-				font-size: 35px
-				margin-bottom: 30px
 </style>
