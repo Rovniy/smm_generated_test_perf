@@ -7,7 +7,8 @@
 		<div class="first_container">
 			<div class="left-side">
 				<p class="title">Накрутка и продвижение аккаунтов Инстаграм</p>
-				<p class="description">Повышайте свою популярность в Instagram всего в несколько кликов, просто и эффективно!
+				<p class="description">Повышайте свою популярность в Instagram всего в несколько кликов, просто и эффективно!</p>
+				<PromoButton/>
 			</div>
 
 			<div class="right-side">
@@ -56,6 +57,7 @@
 	import Accordion from '../components/accordion.svelte'
 	import Seo from '../components/seo.svelte'
 	import Slider from '../components/slider/slider.svelte'
+	import PromoButton from '../components/ui/promo-button.svelte'
 </script>
 
 <style lang="sass">
@@ -90,6 +92,7 @@
 				line-height: 1.75rem
 				margin-bottom: 39px
 				width: 80%
+
 
 	.second,
 	.third,
