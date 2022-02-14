@@ -18,7 +18,11 @@ body
 	+desktop
 		max-width: $desktop
 
+	&.with_padding
+		padding: 100px 0 60px 0
+
 	h1
+		text-align: center
 		font-size: 35px
 		margin-bottom: 30px
 

@@ -27,18 +27,15 @@
 	</div>
 </section>
 
-
 <section class="third">
-	<div class="container">
-		<h1>Накрутка Инстаграм</h1>
-
+	<div class="container with_padding">
 		<!--  Carousel	-->
 		<Slider />
 	</div>
 </section>
 
 <section class="fourth">
-	<div class="container">
+	<div class="container with_padding">
 		<div class="fourth_container">
 			<h1>Часто задаваемые вопросы</h1>
 			<Accordion/>
@@ -47,9 +44,9 @@
 </section>
 
 <section class="fifth">
-	<div class="container">
+	<div class="container with_padding">
 		<div class="fifth_container">
-			<h1>Наши приемущества</h1>
+			<h1>Наши преимущества</h1>
 			<Seo/>
 		</div>
 	</div>
@@ -67,62 +64,50 @@
 </script>
 
 <style lang="sass">
-	@import '../style/common.sass'
+@import '../style/common.sass'
 
-	.first
-		width: 100%
-		height: 153vh
-		background-image: url("/img/svg/main.svg")
-		background-size: cover
-		background-repeat: no-repeat
+.first
+	width: 100%
+	height: 153vh
+	background-image: url("/img/svg/main.svg")
+	background-size: cover
+	background-repeat: no-repeat
 
-		&_container
-			display: flex
-			margin-top: 200px
-
-		.left-side
-			.title
-				color: #fff
-				font-size: 3.125rem
-				line-height: 3.4375rem
-				margin-bottom: 30px
-
-			.description
-				color: #fff
-				font-size: 1.25rem
-				line-height: 1.75rem
-				margin-bottom: 39px
-				width: 80%
-
-
-	.second,
-	.third,
-	.fourth
-		width: 100%
+	&_container
 		display: flex
+		margin-top: 200px
 
-	.third
-		background-image: url("../assets/svg/main.svg")
-		background-size: cover
-		background-repeat: no-repeat
+	.left-side
+		.title
+			color: #fff
+			font-size: 3.125rem
+			line-height: 3.4375rem
+			margin-bottom: 30px
 
-	.fourth
-		&_container
-			display: flex
-			flex-direction: column
-			align-items: center
-			padding: 100px 0 60px 0
+		.description
+			color: #fff
+			font-size: 1.25rem
+			line-height: 1.75rem
+			margin-bottom: 39px
+			width: 80%
 
-			h1
-				font-size: 35px
-				margin-bottom: 30px
 
-	.fifth
-		background-image: url("/img/svg/main.svg")
-		background-size: cover
-		background-repeat: no-repeat
-		color: #fff
+.second,
+.third,
+.fourth
+	width: 100%
+	display: flex
 
-		&_container
-			padding: 100px 0 60px 0
+.third
+	background-image: url("../assets/svg/main.svg")
+	background-size: cover
+	background-repeat: no-repeat
+
+
+.fifth
+	background-image: url("/img/svg/main.svg")
+	background-size: cover
+	background-repeat: no-repeat
+	color: #fff
+
 </style>
