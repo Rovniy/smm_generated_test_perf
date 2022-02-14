@@ -20,7 +20,6 @@
 <section class="second">
 	<div class="container">
 		<h1>Накрутка Инстаграм</h1>
-		<!--  Carousel	-->
 		<Slider />
 	</div>
 </section>
@@ -60,65 +59,68 @@
 </script>
 
 <style lang="sass">
-@import '../style/common.sass'
+	@import '../style/common.sass'
 
-.container
-	max-width: 1108px
-	margin: 0 auto
-	display: flex
-
-.first
-	width: 100%
-	height: 153vh
-	background-image: url("/img/svg/main.svg")
-	background-size: cover
-	background-repeat: no-repeat
-
-	&_container
+	.container
+		max-width: $container_width
+		margin: 0 auto
 		display: flex
-		margin-top: 200px
 
-	.left-side
-		.title
-			color: #fff
-			font-size: 3.125rem
-			line-height: 3.4375rem
-			margin-bottom: 30px
+	.first
+		width: 100%
+		height: 153vh
+		background-image: url("/img/svg/main.svg")
+		background-size: cover
+		background-repeat: no-repeat
 
-		.description
-			color: #fff
-			font-size: 1.25rem
-			line-height: 1.75rem
-			margin-bottom: 39px
-			width: 80%
+		&_container
+			display: flex
+			margin-top: 200px
 
-.second,
-.third,
-.fourth,
-.fifth
-	width: 100%
-	height: 500px
-	display: flex
+		.left-side
+			.title
+				color: #fff
+				font-size: 3.125rem
+				line-height: 3.4375rem
+				margin-bottom: 30px
 
-.third
-	background-image: url("../assets/svg/main.svg")
-	background-size: cover
-	background-repeat: no-repeat
+			.description
+				color: #fff
+				font-size: 1.25rem
+				line-height: 1.75rem
+				margin-bottom: 39px
+				width: 80%
 
-.fourth
-	&_container
+	.second,
+	.third,
+	.fourth
+		width: 100%
+		height: 500px
 		display: flex
-		flex-direction: column
-		align-items: center
 
-.fifth
-	background-image: url("/img/svg/main.svg")
-	background-size: cover
-	background-repeat: no-repeat
-	color: #fff
+	.third
+		background-image: url("../assets/svg/main.svg")
+		background-size: cover
+		background-repeat: no-repeat
 
-	&_container
-		display: flex
-		flex-direction: column
-		align-items: center
+	.fourth
+		&_container
+			display: flex
+			flex-direction: column
+			align-items: center
+
+	.fifth
+		background-image: url("/img/svg/main.svg")
+		background-size: cover
+		background-repeat: no-repeat
+		color: #fff
+
+		&_container
+			display: flex
+			flex-direction: column
+			align-items: center
+			padding: 100px 0 60px 0
+
+			h1
+				font-size: 35px
 </style>

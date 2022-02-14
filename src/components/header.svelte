@@ -15,9 +15,11 @@
 </div>
 
 <style lang="sass">
+	@import '../style/common.sass'
+
 	.header_container
 		background: aquamarine /* TODO delete */
-		min-width: 1108px
+		min-width: $container_width
 		position: fixed
 		top: 60px
 		z-index: 100

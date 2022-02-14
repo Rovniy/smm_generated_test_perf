@@ -47,33 +47,35 @@
 </footer>
 
 <style lang="sass">
-.container
-	max-width: 1108px
-	margin: 0 auto
-	display: flex
+	@import '../style/common.sass'
 
-.footer
-	width: 100%
-	background: #222
-	color: #7a7d84
-
-	&__container
+	.container
+		max-width: $container_width
+		margin: 0 auto
 		display: flex
-		justify-content: space-between
-		align-items: flex-start
-		padding: 20px 0
 
-	.description
-		width: 30%
+	.footer
+		width: 100%
+		background: #222
+		color: #7a7d84
 
-
-	.navigation
-		&_items
+		&__container
 			display: flex
+			justify-content: space-between
+			align-items: flex-start
+			padding: 20px 0
 
-	&__copyrights
-		display: flex
-		justify-content: center
-		align-items: center
-		padding: 20px
+		.description
+			width: 30%
+
+
+		.navigation
+			&_items
+				display: flex
+
+		&__copyrights
+			display: flex
+			justify-content: center
+			align-items: center
+			padding: 20px
 </style>

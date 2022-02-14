@@ -1,6 +1,6 @@
 <div class="card">
 	<div class="left-side">
-		<img src="/img/svg/seo-first.svg" alt="seo-img">
+		<img src="/img/svg/seo_first.svg" alt="seo-img">
 	</div>
 
 	<div class="right-side">
@@ -17,9 +17,17 @@
 		box-shadow: 0 0 70px rgba(0, 0, 0, 0.1)
 		border-radius: 10px
 		display: flex
-		max-width: 270px
+		max-width: 349px
 		padding: 15px
 		margin: 15px
+
+		&:nth-child(1),
+		&:nth-child(4)
+			margin-left: 0
+
+		&:nth-child(3),
+		&:nth-child(6)
+			margin-right: 0
 
 		.right-side
 			color: #000
@@ -27,5 +35,5 @@
 
 			.title
 				font-weight: 700
-				margin-bottom: 10px
+				margin-bottom: 15px
 </style>

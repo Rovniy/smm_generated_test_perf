@@ -15,8 +15,10 @@
 </div>
 
 <style lang="sass">
+	@import '../style/common.sass'
+
 	.accordion
-		width: 1000px
+		max-width: $container_width
 		height: 400px
 
 		.info
