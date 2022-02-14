@@ -13,3 +13,34 @@
 		</div>
 	</header>
 </div>
+
+<style lang="sass">
+	.header_container
+		background: aquamarine /* TODO delete */
+		min-width: 1108px
+		position: fixed
+		top: 60px
+		z-index: 100
+
+		header
+			width: 100%
+			display: flex
+			justify-content: space-between
+			align-items: center
+			background: transparent
+			z-index: 100
+
+			.left-side
+				display: flex
+				justify-content: space-between
+				align-items: center
+				min-width: 500px
+				a
+					color: #fff
+					text-decoration: none
+
+			.right-side
+				a
+					color: #fff
+					text-decoration: none
+</style>
