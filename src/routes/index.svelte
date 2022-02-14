@@ -1,108 +1,94 @@
+<Header class="header"/>
+
+<section class="first container">
+	<div class="left-side">
+		<p class="title">Накрутка и продвижение аккаунтов Инстаграм</p>
+		<p class="description">Повышайте свою популярность в Instagram всего в несколько кликов, просто и эффективно!
+	</div>
+
+	<div class="right-side">
+		<img src="/img/svg/promo.svg" width="512" height="425" alt="promo">
+	</div>
+</section>
+
+<section class="second container">
+	<h1>Накрутка Инстаграм</h1>
+	<!--  Carousel	-->
+</section>
+
+<section class="third container">
+<!--  Carousel	-->
+</section>
+
+<section class="fourth container">
+	<h1>Часто задаваемые вопросы</h1>
+	<Accordion/>
+</section>
+
+<section class="fifth container">
+	<h1>Наши приемущества</h1>
+	<Seo/>
+</section>
+
+<Footer/>
+
 <script>
-  import Header from '../components/header.svelte'
+	import Header from '../components/header.svelte'
+	import Footer from '../components/footer.svelte'
+	import Accordion from '../components/accordion.svelte'
+	import Seo from '../components/seo.svelte'
 </script>
 
 <style lang="sass">
 @import '../style/common.sass'
+
+.container
+	max-width: 1108px
+	margin: 0 auto
+
+	.first
+		width: 100%
+		height: 100vh
+		background-image: url("/img/svg/main.svg")
+		background-size: cover
+		background-repeat: no-repeat
+		display: flex
+		justify-content: center
+		align-items: center
+
+		.left-side
+			.title
+				color: #fff
+				font-size: 3.125rem
+				line-height: 3.4375rem
+				margin-bottom: 30px
+
+			.description
+				color: #fff
+				font-size: 1.25rem
+				line-height: 1.75rem
+				margin-bottom: 39px
+				width: 80%
+
+	.second,
+	.third,
+	.fourth,
+	.fifth
+		width: 100%
+		height: 500px
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-items: center
+
+	.third
+		background-image: url("../assets/svg/main.svg")
+		background-size: cover
+		background-repeat: no-repeat
+
+	.fifth
+		background-image: url("/img/svg/main.svg")
+		background-size: cover
+		background-repeat: no-repeat
+		color: #fff
 </style>
-
-
-
-
-<Header />
-
-
-
-<section class="first">
-  <div class="container">
-    <div class="left-side">
-      <p class="title">Накрутка и продвижение аккаунтов Инстаграм</p>
-      <p class="description">Повышайте свою популярность в Instagram всего в несколько кликов, просто и эффективно!
-    </div>
-
-    <div class="right-side">
-      <img src="/img/svg/promo.svg" width="512" height="425" alt="promo">
-    </div>
-  </div>
-</section>
-
-<section class="second">
-  <h1>Накрутка Инстаграм</h1>
-  <div class="carousels"></div>
-</section>
-
-<section class="third">
-  <div class="carousels"></div>
-</section>
-
-<section class="fourth">
-  <h1>Часто задаваемые вопросы</h1>
-  <div class="accordion">
-    <div class="info">
-      <div class="info_title">Через какое время выполняются услуги?</div>
-    </div>
-    <div class="info info_open">
-      <div class="info_title">Через какое время выполняются услуги?</div>
-      <div class="more_info">Для заказа выберите услугу, введите ссылку и укажите количество. Вас перенаправит на сайт платежной системы, где нужно будет произвести оплату. После совершения оплаты Ваш заказ автоматически начнет выполняться.</div>
-    </div>
-    <div class="info">
-      <div class="info_title">Через какое время выполняются услуги?</div>
-    </div>
-    <div class="info">
-      <div class="info_title">Через какое время выполняются услуги?</div>
-    </div>
-  </div>
-</section>
-
-<section class="fifth">
-  <h1>Наши приемущества</h1>
-  <div class="seo"></div>
-</section>
-
-<footer class="footer">
-  <div class="footer__container container">
-    <div class="description">
-      <a class="footer__logo" href="#">
-        <img
-          src="/img/misc/new-logo-ny-white.svg"
-          width="123"
-          height="38"
-          alt="logo"
-          loading="lazy" />
-      </a>
-
-      <div class="footer__text">
-        Займись раскруткой своей страницы уже сегодня! Мы привлекаем качественную аудиторию для Вашего аккаунта, что сделает Вас популярным уже через несколько часов.
-      </div>
-    </div>
-    <div class="navigation">
-      <span style="color: #fff">НАВИГАЦИЯ:</span>
-      <div class="navigation_items">
-        <div class="left">
-          <ul>
-            <li>FAQ</li>
-            <li>БЛОГ</li>
-            <li>ОТЗЫВЫ</li>
-          </ul>
-        </div>
-
-        <div class="right">
-          <ul>
-            <li>ЛИЧНЫЙ КАБИНЕТ</li>
-            <li>ДОГОВОР ОФЕРТЫ</li>
-            <li>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="contacts">
-      <span style="color: #fff">КОНТАКТЫ:</span>
-      <div>info@smmtouch.com</div>
-      <div></div>
-    </div>
-  </div>
-  <hr style="border: 1px solid #999999">
-  <div class="footer__copyrights container">
-    &copy; 2017 - 2022 Все права защищены.
-  </div>
-</footer>
