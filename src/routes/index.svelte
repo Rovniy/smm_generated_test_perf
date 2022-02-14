@@ -95,7 +95,6 @@
 	.third,
 	.fourth
 		width: 100%
-		height: 500px
 		display: flex
 
 	.third
@@ -108,6 +107,11 @@
 			display: flex
 			flex-direction: column
 			align-items: center
+			padding: 100px 0 60px 0
+
+			h1
+				font-size: 35px
+				margin-bottom: 30px
 
 	.fifth
 		background-image: url("/img/svg/main.svg")
@@ -123,4 +127,5 @@
 
 			h1
 				font-size: 35px
+				margin-bottom: 30px
 </style>
