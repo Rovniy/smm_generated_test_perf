@@ -20,5 +20,6 @@ body
 
 	h1
 		font-size: 35px
+		margin-bottom: 30px
 
 </style>

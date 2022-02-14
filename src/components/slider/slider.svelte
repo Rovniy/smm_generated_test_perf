@@ -1,5 +1,6 @@
 <script>
 	import SliderWrapper from './slider-wrapper.svelte';
+	import PromoButton from '../ui/promo-button.svelte';
 	import slides from '../../db/slides.json';
 </script>
 
@@ -21,10 +22,13 @@
 				<li class="item">Накрутка без бана</li>
 				<li class="item">До 20 тыс. в сутки</li>
 			</ul>
-			<button class="button inverted">
-				<svg-icon name="icon-cart" class="icon" />
-				Купить сейчас
-			</button>
+			<div class="button_area">
+				<PromoButton />
+			</div>
+<!--			<button class="button inverted">-->
+<!--				<svg-icon name="icon-cart" class="icon" />-->
+<!--				Купить сейчас-->
+<!--			</button>-->
 		</div>
 	{/each}
 </SliderWrapper>
@@ -78,7 +82,7 @@ $indent_big: 60px
 		.separator
 			margin-bottom: $indent_big
 
-		.button
+		.button_area
 			margin-top: $indent_big
 
 	.header
@@ -143,31 +147,30 @@ $indent_big: 60px
 				transform: rotate(135deg) translateY(40%)
 				margin-right: 3px
 
-	.button
-		display: flex
-		justify-content: center
-		align-items: center
-		background: #2674bd
-		color: $color_light
-		border: 2px solid transparent
-		border-radius: 250px
-		box-shadow: 0 7px 10px rgba(0, 0, 0, .25)
-		transition: all $transition-fast
-		font-family: $ff_gilroy
-		margin: $indent_normal 0
-
-		&:hover
-			border-color: $color_body !important
-			background: $color_body !important
-			color: $color_light !important
-
-		&.inverted
-			background: $color_light
-			color: #2674bd
-			border-color: #2674bd
-			box-shadow: none
-
-		.icon
-			margin-right: 14px
+	.button_area
+		+flex_center
+		margin-top: $indent_normal
+		//background: #2674bd
+		//color: $color_light
+		//border: 2px solid transparent
+		//border-radius: 250px
+		//box-shadow: 0 7px 10px rgba(0, 0, 0, .25)
+		//transition: all $transition-fast
+		//font-family: $ff_gilroy
+		//margin: $indent_normal 0
+		//
+		//&:hover
+		//	border-color: $color_body !important
+		//	background: $color_body !important
+		//	color: $color_light !important
+		//
+		//&.inverted
+		//	background: $color_light
+		//	color: #2674bd
+		//	border-color: #2674bd
+		//	box-shadow: none
+		//
+		//.icon
+		//	margin-right: 14px
 </style>
 

@@ -1,6 +1,6 @@
-<button>
+<button class="button">
 	<img src="/img/svg/seo_instagram.svg" alt="network">
-	<span>Раскрутить Инстаграм</span>
+	<span>Купить</span>
 </button>
 
 <style lang="sass">
