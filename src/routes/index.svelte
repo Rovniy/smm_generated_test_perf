@@ -1,5 +1,6 @@
 <script>
 	import Header from '../components/header.svelte';
+	import Slider from '../components/slider/slider.svelte';
 </script>
 
 <Header />
@@ -22,7 +23,7 @@
 
 <section class="second">
 	<h1>Накрутка Инстаграм</h1>
-	<div class="carousels" />
+	<Slider />
 </section>
 
 <section class="third">

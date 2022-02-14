@@ -5,10 +5,10 @@
  * https://vitejs.dev/config/#css-preprocessoroptions
  * https://www.npmjs.com/package/@sveltejs/adapter-static/v/next
  */
-import adapter from '@sveltejs/adapter-static';
-import SveltePreprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static'
+import SveltePreprocess from 'svelte-preprocess'
 
-const preprocess = SveltePreprocess();
+const preprocess = SveltePreprocess()
 
 const config = {
 	kit: {
@@ -27,6 +27,6 @@ const config = {
 		}
 	},
 	preprocess
-};
+}
 
-export default config;
+export default config

@@ -1,1 +1,201 @@
-$main_color: blue
+
+/************************ Fonts ****************************/
+$ff-gilroy:              'Gilroy', helvetica, arial, sans-serif
+$ff-segoe:               'Segoe UI', helvetica, arial, sans-serif
+
+/************************ Responsive ****************************/
+$mobile: 350px
+$mobile-xl: 500px
+$tablet: 768px
+$tablet-xl: 992px
+$desktop: 1200px
+$desktop-l: 1400px
+$desktop-xl: 1600px
+$desktop-xl-wide: 1920px
+$desktop-2k: 2500px
+
+/************************ Transitions ****************************/
+$transition-fast: .1s ease-in-out
+$transition-slow: .4s ease-in-out
+
+/************************ Main colors ****************************/
+$color_base: #263238
+$color_body: #1E252B
+$color_primary: #2691F4
+$color_dark: #000
+$color_light: #fff
+
+/************************* flex ***********************/
+@mixin flex_center
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: center
+
+@mixin flex_center_column
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+
+@mixin flex_start
+	display: flex
+	flex-direction: row
+	align-items: flex-start
+	justify-content: flex-start
+
+@mixin flex_start_column
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: flex-start
+
+@mixin flex_start_center_column
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: flex-start
+
+@mixin flex_center_start
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: flex-start
+
+@mixin flex_center_start_column
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: center
+
+@mixin flex_center_end
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: flex-end
+
+@mixin flex_space_between
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: space-between
+
+@mixin flex_space_between_column
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: space-between
+
+@mixin flex_start_space_between
+	display: flex
+	flex-direction: row
+	align-items: flex-start
+	justify-content: space-between
+
+@mixin flex_start_space_between_column
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: space-between
+
+/************************* RESPONSIVE **************************/
+@mixin custom($width)
+	@media screen and (min-width: $width) and (any-hover: hover)
+		@content
+	@media screen and (min-width: $width) and (any-hover: none)
+		@content
+
+@mixin mobile-xl
+	@media screen and (min-width: $mobile-xl) and (any-hover: hover)
+		@content
+	@media screen and (min-width: $mobile-xl) and (any-hover: none)
+		@content
+
+@mixin tablet
+	@media screen and (min-width: $tablet) and (any-hover: hover)
+		@content
+	@media screen and (min-width: $tablet) and (any-hover: none)
+		@content
+
+@mixin tablet-xl // 992px
+	@media screen and (min-width: $tablet-xl) and (any-hover: hover)
+		@content
+	@media screen and (min-width: $tablet-xl) and (any-hover: none)
+		@content
+
+@mixin desktop // 1200px
+	@media screen and (min-width: $desktop) and (any-hover: hover)
+		@content
+
+@mixin desktop-touch // 1200px //TODO нужно ли объединить с desktop?
+	@media screen and (min-width: $desktop) and (any-hover: none)
+		@content
+
+@mixin desktop-l // 1400px
+	@media screen and (min-width: $desktop-l) and (any-hover: hover)
+		@content
+
+@mixin desktop-xl // 1600px
+	@media screen and (min-width: $desktop-xl) and (any-hover: hover)
+		@content
+
+@mixin desktop-xl-wide // 1920px
+	@media screen and (min-width: $desktop-xl-wide) and (any-hover: hover)
+		@content
+
+@mixin desktop-2k // 2500px
+	@media screen and (min-width: $desktop-2k) and (any-hover: hover)
+		@content
+
+
+/************************** Fonts **********************/
+@font-face
+	src: url("fonts/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/Gilroy-Regular.woff") format("woff"), url("fonts/Gilroy-Regular.ttf") format("truetype")
+	font-family: "Gilroy"
+	font-style: normal
+	font-weight: normal
+	font-display: swap
+
+@font-face
+	font-family: "Gilroy"
+	font-style: normal
+	font-weight: 500
+	font-display: swap
+	src: url("fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/Gilroy-Medium.woff") format("woff"), url("fonts/Gilroy-Medium.ttf") format("truetype")
+
+@font-face
+	font-family: "Gilroy"
+	font-style: normal
+	font-weight: 600
+	font-display: swap
+	src: url("fonts/Gilroy-SemiBold.eot?#iefix") format("embedded-opentype"), url("fonts/Gilroy-SemiBold.woff") format("woff"), url("fonts/Gilroy-SemiBold.ttf") format("truetype")
+
+@font-face
+	font-family: "Gilroy"
+	font-style: normal
+	font-weight: 700
+	font-display: swap
+	src: url("fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Gilroy-Bold.woff") format("woff"), url("fonts/Gilroy-Bold.ttf") format("truetype")
+
+@font-face
+	font-family: "Gilroy"
+	font-style: normal
+	font-weight: 800
+	font-display: swap
+	src: url("fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("fonts/Gilroy-ExtraBold.woff") format("woff"), url("fonts/Gilroy-ExtraBold.ttf") format("truetype")
+
+@font-face
+	font-family: "GothamPro"
+	font-style: normal
+	font-weight: 400
+	font-display: swap
+	src: url("fonts/GothamProRegular.eot")
+	src: url("fonts/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("fonts/GothamProRegular.woff") format("woff"), url("fonts/GothamProRegular.ttf") format("truetype")
+
+@font-face
+	font-family: "GothamPro"
+	font-style: normal
+	font-weight: 700
+	font-display: swap
+	src: url("fonts/GothamProBold.eot")
+	src: url("fonts/GothamProBold.eot?#iefix") format("embedded-opentype"), url("fonts/GothamProBold.woff") format("woff"), url("fonts/GothamProBold.ttf") format("truetype")
