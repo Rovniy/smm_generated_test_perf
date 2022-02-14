@@ -1,7 +1,7 @@
 <footer class="footer">
-	<div class="footer__container container">
+	<div class="container area">
 		<div class="description">
-			<a class="footer__logo" href="#">
+			<a class="logo" href="#">
 				<img
 					src="/img/misc/new-logo-ny-white.svg"
 					width="123"
@@ -10,72 +10,131 @@
 					loading="lazy" />
 			</a>
 
-			<div class="footer__text">
+			<div class="text">
 				Займись раскруткой своей страницы уже сегодня! Мы привлекаем качественную аудиторию для Вашего аккаунта, что сделает Вас популярным уже через несколько часов.
 			</div>
 		</div>
-		<div class="navigation">
-			<span style="color: #fff">НАВИГАЦИЯ:</span>
-			<div class="navigation_items">
-				<div class="left">
-					<ul>
-						<li>FAQ</li>
-						<li>БЛОГ</li>
-						<li>ОТЗЫВЫ</li>
-					</ul>
-				</div>
 
-				<div class="right">
-					<ul>
-						<li>ЛИЧНЫЙ КАБИНЕТ</li>
-						<li>ДОГОВОР ОФЕРТЫ</li>
-						<li>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</li>
-					</ul>
-				</div>
+		<div class="navigation">
+			<h3 class="title">НАВИГАЦИЯ:</h3>
+
+			<div class="items">
+				<ul class="menu left">
+					<li>
+						<a href="#" class="link">Faq</a>
+					</li>
+					<li>
+						<a href="#" class="link">Блог</a>
+					</li>
+					<li>
+						<a href="#" class="link">Отзывы</a>
+					</li>
+				</ul>
+
+				<ul class="menu right">
+					<li>
+						<a href="#" class="link">Личный кабинет</a>
+					</li>
+					<li>
+						<a href="#" class="link">Договор оферты</a>
+					</li>
+					<li>
+						<a href="#" class="link">Политика конфиденциальности</a>
+					</li>
+				</ul>
 			</div>
 		</div>
+
 		<div class="contacts">
-			<span style="color: #fff">КОНТАКТЫ:</span>
-			<div>info@smmtouch.com</div>
-			<div></div>
+			<h3 class="title">КОНТАКТЫ:</h3>
+			<a href="mailto:info@smmtouch.com" class="email">info@smmtouch.com</a>
 		</div>
 	</div>
-	<hr style="border: 1px solid #C4C4C4">
-	<div class="footer__copyrights container">
+
+	<div class="copyrights">
 		&copy 2017 - 2022 Все права защищены.
 	</div>
 </footer>
 
 <style lang="sass">
-	@import '../style/common.sass'
+@import '../style/common.sass'
 
-	.container
-		max-width: $container_width
-		margin: 0 auto
-		display: flex
+.footer
+	width: 100%
+	background: #222
+	color: #7a7d84
 
-	.footer
-		width: 100%
-		background: #222
-		color: #7a7d84
-
-		&__container
-			display: flex
-			justify-content: space-between
-			align-items: flex-start
-			padding: 20px 0
+	.area
+		+flex_start_space_between
+		padding: 50px 15px
 
 		.description
-			width: 30%
+			width: 33.33%
+			padding: 0 15px
 
+			.logo
+				max-width: 100%
+				display: block
+				width: 1223px
+				height: 38px
+
+			.text
+				display: block
+				margin-top: 10px
+				font: 400 14px/23px $ff_gotham
+				color: $color_afina
+
+		.navigation,
+		.contacts
+			.title
+				font: 700 16px/16px $ff_gotham
+				text-transform: uppercase
+				color: $color_light
+				margin: 0 0 35px 0
 
 		.navigation
-			&_items
-				display: flex
+			padding: 0 15px
 
-		&__copyrights
-			display: flex
-			justify-content: center
-			align-items: center
-			padding: 20px
+			.items
+				+flex_start_space_between
+
+				.menu
+					+flex_start_column
+					width: 50%
+					padding: 0 15px
+
+					.link
+						font: 400 13px/23px $ff_gotham
+						color: $color_afina
+						text-transform: uppercase
+
+						&:hover
+							color: $color_light
+
+						&:before
+							content: ''
+							display: inline-block
+							border-style: solid
+							border-width: 1px 1px 0 0
+							height: 8px
+							width: 8px
+							transform: rotate(45deg)
+							margin-right: 6px
+
+
+
+		.contacts
+			.email
+				font: 400 14px/14px $ff_gotham
+				color: $color_afina
+
+				&:hover
+					color: $color_light
+
+	.copyrights
+		+flex_center
+		padding: 30px 15px
+		border-top: 1px solid $color_semi
+		color: $color_light
+		font: 400 14px/14px $ff_gotham
 </style>
