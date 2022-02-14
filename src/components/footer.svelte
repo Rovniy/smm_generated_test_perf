@@ -61,8 +61,7 @@
 		display: flex
 		justify-content: space-between
 		align-items: flex-start
-		margin-top: 20px
-		margin-bottom: 20px
+		padding: 20px 0
 
 	.description
 		width: 30%
@@ -76,6 +75,5 @@
 		display: flex
 		justify-content: center
 		align-items: center
-		margin-top: 20px
-		margin-bottom: 20px
+		padding: 20px
 </style>

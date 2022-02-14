@@ -1,5 +1,5 @@
 <section class="container">
-	<Header class="header"/>
+	<Header/>
 </section>
 
 <section class="first">
@@ -41,8 +41,10 @@
 
 <section class="fifth">
 	<div class="container">
-		<h1>Наши приемущества</h1>
-		<Seo/>
+		<div class="fifth_container">
+			<h1>Наши приемущества</h1>
+			<Seo/>
+		</div>
 	</div>
 </section>
 
@@ -112,4 +114,9 @@
 	background-size: cover
 	background-repeat: no-repeat
 	color: #fff
+
+	&_container
+		display: flex
+		flex-direction: column
+		align-items: center
 </style>
