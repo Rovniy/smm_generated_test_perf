@@ -4,16 +4,16 @@
 </button>
 
 <style lang="sass">
+	@import './src/style/common.sass'
+
 	button
+		+flex_center
 		height: 48px
 		background: #FFFFFF
 		box-shadow: 0 7px 10px rgba(0, 0, 0, 0.1)
 		border-radius: 250px
 		border: none
 		cursor: pointer
-		display: flex
-		justify-content: center
-		align-items: center
 		padding: 0 30px
 		color: #2691f4
 

@@ -38,9 +38,7 @@
 
 	header
 		width: 100%
-		display: flex
-		justify-content: space-between
-		align-items: center
+		+flex_space_between
 		background: transparent
 		z-index: 100
 
@@ -62,8 +60,6 @@
 						opacity: .8
 
 		.left_side
-			display: flex
-			justify-content: space-between
-			align-items: center
+			+flex_space_between
 			min-width: 500px
 </style>

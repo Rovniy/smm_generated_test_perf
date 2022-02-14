@@ -42,12 +42,9 @@
 			flex-wrap: wrap
 
 		.info
+			+flex_center_start_column
 			position: relative
 			min-height: 50px
-			display: flex
-			flex-direction: column
-			justify-content: center
-			align-items: flex-start
 			box-shadow: 0 0 70px rgba(0, 0, 0, 0.1)
 			border-radius: 10px
 			margin-bottom: 14px
@@ -96,8 +93,6 @@
 			color: #8499A4
 
 		&_btn
-			display: flex
-			justify-content: center
-			align-items: center
+			+flex_center
 			margin-top: 40px
 </style>
