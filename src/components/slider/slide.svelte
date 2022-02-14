@@ -60,6 +60,7 @@ $side_offset: -10px
 
 		.heading
 			text-transform: capitalize
+			font: bold 14px/14px $ff_gilroy
 
 		.price
 			@include flex_center
@@ -120,7 +121,7 @@ $side_offset: -10px
 			background: $color_body !important
 			color: $color_light !important
 
-		font-family: $ff-gilroy
+		font-family: $ff_gilroy
 
 		&.inverted
 			background: $color_light
