@@ -40,37 +40,42 @@
 			<div></div>
 		</div>
 	</div>
-	<hr style="border: 1px solid #999999">
+	<hr style="border: 1px solid #C4C4C4">
 	<div class="footer__copyrights container">
 		&copy 2017 - 2022 Все права защищены.
 	</div>
 </footer>
 
 <style lang="sass">
-	.footer
-		width: 100%
-		background: #222
-		color: #7a7d84
+.container
+	max-width: 1108px
+	margin: 0 auto
+	display: flex
 
-		&__container
+.footer
+	width: 100%
+	background: #222
+	color: #7a7d84
+
+	&__container
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+		margin-top: 20px
+		margin-bottom: 20px
+
+	.description
+		width: 30%
+
+
+	.navigation
+		&_items
 			display: flex
-			justify-content: space-between
-			align-items: flex-start
-			margin-top: 20px
-			margin-bottom: 20px
 
-		.description
-			width: 30%
-
-
-		.navigation
-			&_items
-				display: flex
-
-		&__copyrights
-			display: flex
-			justify-content: center
-			align-items: center
-			margin-top: 20px
-			margin-bottom: 20px
+	&__copyrights
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-top: 20px
+		margin-bottom: 20px
 </style>
