@@ -17,7 +17,7 @@
 		box-shadow: 0 0 70px rgba(0, 0, 0, 0.1)
 		border-radius: 10px
 		display: flex
-		max-width: 349px
+		max-width: 380px
 		padding: 15px
 		margin: 15px
 

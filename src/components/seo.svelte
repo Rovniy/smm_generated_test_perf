@@ -37,14 +37,11 @@
 	@import '../style/common.sass'
 
 	.seo
-		max-width: $container_width
-
 		&_cards
 			display: flex
 			flex-wrap: wrap
 
 		.info
-			width: $container_width
 			position: relative
 			min-height: 50px
 			display: flex
